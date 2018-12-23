@@ -1,0 +1,1709 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCOUNT_COUNT	test-lock.c	106;"	d	file:
+ADDRESS_CHECK_OKAY	test-stdbool.c	22;"	d	file:
+ADDRESS_CHECK_OKAY	test-stdbool.c	27;"	d	file:
+AF_UNSPEC	test-getaddrinfo.c	48;"	d	file:
+ARGMATCH_DIE_DECL	test-argmatch.c	/^_Noreturn ARGMATCH_DIE_DECL;$/;"	v
+ARGMATCH_DIE_DECL	test-exclude.c	/^_Noreturn ARGMATCH_DIE_DECL;$/;"	v
+ARRAY_CARDINALITY	test-argv-iter.c	28;"	d	file:
+ARRAY_CARDINALITY	test-hash.c	33;"	d	file:
+ARRAY_CARDINALITY	test-userspec.c	34;"	d	file:
+ASSERT_DESCRIPTION	test-strsignal.c	31;"	d	file:
+ASSERT_DESCRIPTION	test-strsignal.c	34;"	d	file:
+ASSERT_STREAM	test-dirent-safer.c	35;"	d	file:
+ASSERT_STREAM	test-dup-safer.c	50;"	d	file:
+ASSERT_STREAM	test-freopen-safer.c	32;"	d	file:
+ASSERT_STREAM	test-getopt.c	55;"	d	file:
+ASSERT_STREAM	test-openat-safer.c	33;"	d	file:
+ASSERT_STREAM	test-perror2.c	29;"	d	file:
+AT_FUNC_F1	symlinkat.c	75;"	d	file:
+AT_FUNC_F1	symlinkat.c	80;"	d	file:
+AT_FUNC_NAME	at-func.c	/^AT_FUNC_NAME (int fd, char const *file AT_FUNC_POST_FILE_PARAM_DECLS)$/;"	f
+AT_FUNC_NAME	symlinkat.c	74;"	d	file:
+AT_FUNC_NAME	symlinkat.c	79;"	d	file:
+AT_FUNC_POST_FILE_ARGS	symlinkat.c	77;"	d	file:
+AT_FUNC_POST_FILE_ARGS	symlinkat.c	82;"	d	file:
+AT_FUNC_POST_FILE_PARAM_DECLS	symlinkat.c	76;"	d	file:
+AT_FUNC_POST_FILE_PARAM_DECLS	symlinkat.c	81;"	d	file:
+AUTHORS	test-version-etc.c	23;"	d	file:
+Arizona	test-strftime.c	89;"	d	file:
+BACKUP_STDERR_FILENO	test-dirent-safer.c	34;"	d	file:
+BACKUP_STDERR_FILENO	test-dup-safer.c	49;"	d	file:
+BACKUP_STDERR_FILENO	test-freopen-safer.c	31;"	d	file:
+BACKUP_STDERR_FILENO	test-getopt.c	54;"	d	file:
+BACKUP_STDERR_FILENO	test-openat-safer.c	32;"	d	file:
+BACKUP_STDERR_FILENO	test-perror2.c	28;"	d	file:
+BASE	test-areadlink-with-size.c	35;"	d	file:
+BASE	test-areadlink.c	35;"	d	file:
+BASE	test-areadlinkat.c	35;"	d	file:
+BASE	test-canonicalize.c	35;"	d	file:
+BASE	test-chown.c	38;"	d	file:
+BASE	test-fchownat.c	39;"	d	file:
+BASE	test-fclose.c	34;"	d	file:
+BASE	test-fcntl-safer.c	30;"	d	file:
+BASE	test-fdutimensat.c	31;"	d	file:
+BASE	test-fopen-safer.c	23;"	d	file:
+BASE	test-fopen.c	26;"	d	file:
+BASE	test-fstatat.c	39;"	d	file:
+BASE	test-futimens.c	40;"	d	file:
+BASE	test-lchown.c	38;"	d	file:
+BASE	test-link.c	36;"	d	file:
+BASE	test-linkat.c	40;"	d	file:
+BASE	test-lstat.c	41;"	d	file:
+BASE	test-mkdir.c	36;"	d	file:
+BASE	test-mkfifo.c	36;"	d	file:
+BASE	test-mknod.c	36;"	d	file:
+BASE	test-open.c	33;"	d	file:
+BASE	test-openat.c	34;"	d	file:
+BASE	test-perror2.c	34;"	d	file:
+BASE	test-readlink.c	37;"	d	file:
+BASE	test-readlinkat.c	41;"	d	file:
+BASE	test-remove.c	36;"	d	file:
+BASE	test-rename.c	36;"	d	file:
+BASE	test-rmdir.c	36;"	d	file:
+BASE	test-stat-time.c	30;"	d	file:
+BASE	test-stat.c	40;"	d	file:
+BASE	test-statat.c	25;"	d	file:
+BASE	test-symlink.c	36;"	d	file:
+BASE	test-symlinkat.c	41;"	d	file:
+BASE	test-unlink.c	38;"	d	file:
+BASE	test-unlinkat.c	37;"	d	file:
+BASE	test-utimens.c	30;"	d	file:
+BASE	test-utimensat.c	41;"	d	file:
+BINARY_IO_INLINE	binary-io.c	2;"	d	file:
+BINARY_IO_INLINE	binary-io.h	33;"	d
+BUFSIZE	test-mbsrtowcs.c	81;"	d	file:
+BUF_SLOP	test-getcwd.c	122;"	d	file:
+CALL_FUNC	at-func.c	144;"	d	file:
+CALL_FUNC	at-func.c	33;"	d	file:
+CALL_FUNC	at-func.c	44;"	d	file:
+CHECK	test-alignof.c	/^CHECK (longdouble)$/;"	f
+CHECK	test-alignof.c	34;"	d	file:
+CHECK_ALIGNED	test-stdalign.c	63;"	d	file:
+CHECK_BINOP	test-intprops.c	142;"	d	file:
+CHECK_DIFFERENCE	test-intprops.c	246;"	d	file:
+CHECK_PRODUCT	test-intprops.c	272;"	d	file:
+CHECK_PRODUCT1	test-intprops.c	278;"	d	file:
+CHECK_QUOTIENT	test-intprops.c	341;"	d	file:
+CHECK_REMAINDER	test-intprops.c	354;"	d	file:
+CHECK_SBINOP	test-intprops.c	147;"	d	file:
+CHECK_SDIFFERENCE	test-intprops.c	248;"	d	file:
+CHECK_SPRODUCT	test-intprops.c	275;"	d	file:
+CHECK_SPRODUCT1	test-intprops.c	280;"	d	file:
+CHECK_SSUM	test-intprops.c	215;"	d	file:
+CHECK_SSUM1	test-intprops.c	220;"	d	file:
+CHECK_STATIC	test-stdalign.c	55;"	d	file:
+CHECK_SUM	test-intprops.c	212;"	d	file:
+CHECK_SUM1	test-intprops.c	218;"	d	file:
+CHECK_UNOP	test-intprops.c	154;"	d	file:
+CK	test-inttostr.c	40;"	d	file:
+CONVERT_ENABLED	test-iconv.c	53;"	d	file:
+CentEur	test-strftime.c	93;"	d	file:
+DEV_NULL	test-isatty.c	32;"	d	file:
+DEV_NULL	test-isatty.c	35;"	d	file:
+DIR_NAME	test-getcwd.c	114;"	d	file:
+DIR_NAME_LEN	test-getcwd.c	115;"	d	file:
+DIR_NAME_SIZE	test-getcwd.c	116;"	d	file:
+DONTCARE	test-intprops.c	53;"	d	file:
+DOTDOTSLASH_LEN	test-getcwd.c	119;"	d	file:
+DOUBLE	test-frexp.c	42;"	d	file:
+DOUBLE	test-frexpl.c	43;"	d	file:
+DO_PEDANTIC	test-stdint.c	22;"	d	file:
+DO_TEST_LOCK	test-lock.c	44;"	d	file:
+DO_TEST_ONCE	test-lock.c	47;"	d	file:
+DO_TEST_RECURSIVE_LOCK	test-lock.c	46;"	d	file:
+DO_TEST_RWLOCK	test-lock.c	45;"	d	file:
+EAI_SERVICE	test-getaddrinfo.c	52;"	d	file:
+ENABLE_DEBUGGING	test-getaddrinfo.c	38;"	d	file:
+ENABLE_DEBUGGING	test-lock.c	54;"	d	file:
+ENABLE_DEBUGGING	test-tls.c	41;"	d	file:
+ENABLE_LOCKING	test-lock.c	39;"	d	file:
+ENOTSUP	at-func.c	24;"	d	file:
+EXPECT_LINK_HARDLINKS_SYMLINKS	test-linkat.c	58;"	d	file:
+EXPECT_LINK_HARDLINKS_SYMLINKS	test-linkat.c	61;"	d	file:
+EXPECT_LINK_HARDLINKS_SYMLINKS	test-linkat.c	63;"	d	file:
+EXPLICIT_YIELD	test-lock.c	51;"	d	file:
+EXPLICIT_YIELD	test-tls.c	38;"	d	file:
+EXP_FAIL	test-verify.c	25;"	d	file:
+FABS	test-strtod.c	35;"	d	file:
+FILE1	test-read-file.c	26;"	d	file:
+FILE2	test-read-file.c	27;"	d	file:
+FNM_CASEFOLD	test-exclude.c	31;"	d	file:
+FNM_LEADING_DIR	test-exclude.c	34;"	d	file:
+FREXP	test-frexp.c	57;"	d	file:
+FREXP	test-frexpl.c	64;"	d	file:
+FUNC_FAIL	at-func.c	146;"	d	file:
+FUNC_FAIL	at-func.c	55;"	d	file:
+FUNC_FAIL	at-func.c	57;"	d	file:
+FUNC_RESULT	at-func.c	145;"	d	file:
+FUNC_RESULT	at-func.c	49;"	d	file:
+FUNC_RESULT	at-func.c	51;"	d	file:
+FUNC_UNGETC_BROKEN	test-fseek.c	32;"	d	file:
+FUNC_UNGETC_BROKEN	test-fseeko.c	33;"	d	file:
+FUNC_UNGETC_BROKEN	test-ftell.c	33;"	d	file:
+FUNC_UNGETC_BROKEN	test-ftello.c	33;"	d	file:
+HASH_TABLE_SIZE	localename.c	2627;"	d	file:
+HAVE_LOCALE_NULL	localename.c	2787;"	d	file:
+HAVE_OPENAT_SUPPORT	test-getcwd.c	42;"	d	file:
+HAVE_OPENAT_SUPPORT	test-getcwd.c	44;"	d	file:
+HAVE_SYMLINK	test-readlinkat.c	38;"	d	file:
+HAVE_SYMLINK	test-symlinkat.c	38;"	d	file:
+HOST1	test-getaddrinfo.c	154;"	d	file:
+HOST2	test-getaddrinfo.c	156;"	d	file:
+HOST3	test-getaddrinfo.c	158;"	d	file:
+HOST4	test-getaddrinfo.c	160;"	d	file:
+ICONV_CONST	test-iconv.c	25;"	d	file:
+INFINITY	test-frexp.c	39;"	d	file:
+INFINITY	test-frexp.c	50;"	d	file:
+INFINITY	test-frexpl.c	40;"	d	file:
+INFINITY	test-frexpl.c	46;"	d	file:
+INT16_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int16_t) == INT16_MAX);$/;"	v
+INT16_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int16_t) == INT16_MIN);$/;"	v
+INT32_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int32_t) == INT32_MAX);$/;"	v
+INT32_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int32_t) == INT32_MIN);$/;"	v
+INT64_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int64_t) == INT64_MAX);$/;"	v
+INT64_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int64_t) == INT64_MIN);$/;"	v
+INT8_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int8_t) == INT8_MAX);$/;"	v
+INT8_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int8_t) == INT8_MIN);$/;"	v
+INTMAX_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (intmax_t) == INTMAX_MAX);$/;"	v
+INTMAX_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (intmax_t) == INTMAX_MIN);$/;"	v
+INTPTR_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (intptr_t) == INTPTR_MAX);$/;"	v
+INTPTR_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (intptr_t) == INTPTR_MIN);$/;"	v
+INT_FAST16_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int_fast16_t) == INT_FAST16_MAX);$/;"	v
+INT_FAST16_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int_fast16_t) == INT_FAST16_MIN);$/;"	v
+INT_FAST32_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int_fast32_t) == INT_FAST32_MAX);$/;"	v
+INT_FAST32_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int_fast32_t) == INT_FAST32_MIN);$/;"	v
+INT_FAST64_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int_fast64_t) == INT_FAST64_MAX);$/;"	v
+INT_FAST64_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int_fast64_t) == INT_FAST64_MIN);$/;"	v
+INT_FAST8_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int_fast8_t) == INT_FAST8_MAX);$/;"	v
+INT_FAST8_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int_fast8_t) == INT_FAST8_MIN);$/;"	v
+INT_LEAST16_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int_least16_t) == INT_LEAST16_MAX);$/;"	v
+INT_LEAST16_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int_least16_t) == INT_LEAST16_MIN);$/;"	v
+INT_LEAST32_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int_least32_t) == INT_LEAST32_MAX);$/;"	v
+INT_LEAST32_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int_least32_t) == INT_LEAST32_MIN);$/;"	v
+INT_LEAST64_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int_least64_t) == INT_LEAST64_MAX);$/;"	v
+INT_LEAST64_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int_least64_t) == INT_LEAST64_MIN);$/;"	v
+INT_LEAST8_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (int_least8_t) == INT_LEAST8_MAX);$/;"	v
+INT_LEAST8_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (int_least8_t) == INT_LEAST8_MIN);$/;"	v
+ISDIGIT	test-inttostr.c	32;"	d	file:
+ISNAN	test-frexp.c	49;"	d	file:
+ISNAN	test-frexpl.c	45;"	d	file:
+IS_TIGHT	test-inttostr.c	31;"	d	file:
+Japan	test-strftime.c	95;"	d	file:
+KEYS_COUNT	test-tls.c	81;"	d	file:
+LANG_AFRIKAANS	localename.c	210;"	d	file:
+LANG_ALBANIAN	localename.c	213;"	d	file:
+LANG_ALSATIAN	localename.c	216;"	d	file:
+LANG_AMHARIC	localename.c	219;"	d	file:
+LANG_ARABIC	localename.c	222;"	d	file:
+LANG_ARMENIAN	localename.c	225;"	d	file:
+LANG_ASSAMESE	localename.c	228;"	d	file:
+LANG_AZERI	localename.c	231;"	d	file:
+LANG_BASHKIR	localename.c	234;"	d	file:
+LANG_BASQUE	localename.c	237;"	d	file:
+LANG_BELARUSIAN	localename.c	240;"	d	file:
+LANG_BENGALI	localename.c	243;"	d	file:
+LANG_BRETON	localename.c	246;"	d	file:
+LANG_BURMESE	localename.c	249;"	d	file:
+LANG_CAMBODIAN	localename.c	252;"	d	file:
+LANG_CATALAN	localename.c	255;"	d	file:
+LANG_CHEROKEE	localename.c	258;"	d	file:
+LANG_CORSICAN	localename.c	261;"	d	file:
+LANG_DARI	localename.c	264;"	d	file:
+LANG_DIVEHI	localename.c	267;"	d	file:
+LANG_EDO	localename.c	270;"	d	file:
+LANG_ESTONIAN	localename.c	273;"	d	file:
+LANG_FAEROESE	localename.c	276;"	d	file:
+LANG_FARSI	localename.c	279;"	d	file:
+LANG_FRISIAN	localename.c	282;"	d	file:
+LANG_FULFULDE	localename.c	285;"	d	file:
+LANG_GAELIC	localename.c	288;"	d	file:
+LANG_GALICIAN	localename.c	291;"	d	file:
+LANG_GEORGIAN	localename.c	294;"	d	file:
+LANG_GREENLANDIC	localename.c	297;"	d	file:
+LANG_GUARANI	localename.c	300;"	d	file:
+LANG_GUJARATI	localename.c	303;"	d	file:
+LANG_HAUSA	localename.c	306;"	d	file:
+LANG_HAWAIIAN	localename.c	309;"	d	file:
+LANG_HEBREW	localename.c	312;"	d	file:
+LANG_HINDI	localename.c	315;"	d	file:
+LANG_IBIBIO	localename.c	318;"	d	file:
+LANG_IGBO	localename.c	321;"	d	file:
+LANG_INDONESIAN	localename.c	324;"	d	file:
+LANG_INUKTITUT	localename.c	327;"	d	file:
+LANG_KANNADA	localename.c	330;"	d	file:
+LANG_KANURI	localename.c	333;"	d	file:
+LANG_KASHMIRI	localename.c	336;"	d	file:
+LANG_KAZAK	localename.c	339;"	d	file:
+LANG_KICHE	localename.c	342;"	d	file:
+LANG_KINYARWANDA	localename.c	345;"	d	file:
+LANG_KONKANI	localename.c	348;"	d	file:
+LANG_KYRGYZ	localename.c	351;"	d	file:
+LANG_LAO	localename.c	354;"	d	file:
+LANG_LATIN	localename.c	357;"	d	file:
+LANG_LATVIAN	localename.c	360;"	d	file:
+LANG_LITHUANIAN	localename.c	363;"	d	file:
+LANG_LUXEMBOURGISH	localename.c	366;"	d	file:
+LANG_MACEDONIAN	localename.c	369;"	d	file:
+LANG_MALAY	localename.c	372;"	d	file:
+LANG_MALAYALAM	localename.c	375;"	d	file:
+LANG_MALTESE	localename.c	378;"	d	file:
+LANG_MANIPURI	localename.c	381;"	d	file:
+LANG_MAORI	localename.c	384;"	d	file:
+LANG_MAPUDUNGUN	localename.c	387;"	d	file:
+LANG_MARATHI	localename.c	390;"	d	file:
+LANG_MOHAWK	localename.c	393;"	d	file:
+LANG_MONGOLIAN	localename.c	396;"	d	file:
+LANG_NEPALI	localename.c	399;"	d	file:
+LANG_OCCITAN	localename.c	402;"	d	file:
+LANG_ORIYA	localename.c	405;"	d	file:
+LANG_OROMO	localename.c	408;"	d	file:
+LANG_PAPIAMENTU	localename.c	411;"	d	file:
+LANG_PASHTO	localename.c	414;"	d	file:
+LANG_PUNJABI	localename.c	417;"	d	file:
+LANG_QUECHUA	localename.c	420;"	d	file:
+LANG_ROMANSH	localename.c	423;"	d	file:
+LANG_SAMI	localename.c	426;"	d	file:
+LANG_SANSKRIT	localename.c	429;"	d	file:
+LANG_SCOTTISH_GAELIC	localename.c	432;"	d	file:
+LANG_SERBIAN	localename.c	435;"	d	file:
+LANG_SINDHI	localename.c	438;"	d	file:
+LANG_SINHALESE	localename.c	441;"	d	file:
+LANG_SLOVAK	localename.c	444;"	d	file:
+LANG_SOMALI	localename.c	447;"	d	file:
+LANG_SORBIAN	localename.c	450;"	d	file:
+LANG_SOTHO	localename.c	453;"	d	file:
+LANG_SUTU	localename.c	456;"	d	file:
+LANG_SWAHILI	localename.c	459;"	d	file:
+LANG_SYRIAC	localename.c	462;"	d	file:
+LANG_TAGALOG	localename.c	465;"	d	file:
+LANG_TAJIK	localename.c	468;"	d	file:
+LANG_TAMAZIGHT	localename.c	471;"	d	file:
+LANG_TAMIL	localename.c	474;"	d	file:
+LANG_TATAR	localename.c	477;"	d	file:
+LANG_TELUGU	localename.c	480;"	d	file:
+LANG_THAI	localename.c	483;"	d	file:
+LANG_TIBETAN	localename.c	486;"	d	file:
+LANG_TIGRINYA	localename.c	489;"	d	file:
+LANG_TSONGA	localename.c	492;"	d	file:
+LANG_TSWANA	localename.c	495;"	d	file:
+LANG_TURKMEN	localename.c	498;"	d	file:
+LANG_UIGHUR	localename.c	501;"	d	file:
+LANG_UKRAINIAN	localename.c	504;"	d	file:
+LANG_URDU	localename.c	507;"	d	file:
+LANG_UZBEK	localename.c	510;"	d	file:
+LANG_VENDA	localename.c	513;"	d	file:
+LANG_VIETNAMESE	localename.c	516;"	d	file:
+LANG_WELSH	localename.c	519;"	d	file:
+LANG_WOLOF	localename.c	522;"	d	file:
+LANG_XHOSA	localename.c	525;"	d	file:
+LANG_YAKUT	localename.c	528;"	d	file:
+LANG_YI	localename.c	531;"	d	file:
+LANG_YIDDISH	localename.c	534;"	d	file:
+LANG_YORUBA	localename.c	537;"	d	file:
+LANG_ZULU	localename.c	540;"	d	file:
+LDBL80_WORDS	test-vasprintf-posix.c	47;"	d	file:
+LDBL80_WORDS	test-vasprintf-posix.c	53;"	d	file:
+LOCALE_NAME_MAX_LENGTH	localename.c	1140;"	d	file:
+LOCALE_SNAME	localename.c	1137;"	d	file:
+LOG	test-parse-datetime.c	30;"	d	file:
+LOG	test-parse-datetime.c	34;"	d	file:
+LT	test-strftime.c	/^static struct localtime_rz_test LT[] =$/;"	v	typeref:struct:localtime_rz_test	file:
+L_	test-frexp.c	52;"	d	file:
+L_	test-frexpl.c	48;"	d	file:
+MAGIC	test-strncat.c	33;"	d	file:
+MAGIC	unistr/test-u8-uctomb.c	25;"	d	file:
+MASK_SA_FLAGS	test-sigaction.c	53;"	d	file:
+MAX_EXP	test-frexp.c	54;"	d	file:
+MAX_EXP	test-frexpl.c	50;"	d	file:
+MEMCHR	test-memchr.c	32;"	d	file:
+MEMCHR2	test-memchr2.c	30;"	d	file:
+MEMRCHR	test-memrchr.c	32;"	d	file:
+MINUS_ZERO	test-frexp.c	53;"	d	file:
+MINUS_ZERO	test-frexpl.c	49;"	d	file:
+MIN_EXP	test-frexp.c	55;"	d	file:
+MIN_EXP	test-frexpl.c	51;"	d	file:
+MIN_NORMAL_EXP	test-frexp.c	56;"	d	file:
+MIN_NORMAL_EXP	test-frexpl.c	58;"	d	file:
+MIN_NORMAL_EXP	test-frexpl.c	60;"	d	file:
+MIN_NORMAL_EXP	test-frexpl.c	62;"	d	file:
+MIN_NORMAL_EXP	test-printf-frexpl.c	34;"	d	file:
+MIN_NORMAL_EXP	test-printf-frexpl.c	37;"	d	file:
+MIN_NORMAL_EXP	test-printf-frexpl.c	40;"	d	file:
+MIN_SUBNORMAL_EXP	test-printf-frexpl.c	35;"	d	file:
+MIN_SUBNORMAL_EXP	test-printf-frexpl.c	38;"	d	file:
+MIN_SUBNORMAL_EXP	test-printf-frexpl.c	41;"	d	file:
+NAN	test-frexp.c	40;"	d	file:
+NAN	test-frexp.c	51;"	d	file:
+NAN	test-frexpl.c	41;"	d	file:
+NAN	test-frexpl.c	47;"	d	file:
+NFILES	test-stat-time.c	/^enum { NFILES = 4 };$/;"	e	enum:__anon17	file:
+NOHOSTNAME	test-gethostname.c	33;"	d	file:
+NS_IN6ADDRSZ	inet_pton.c	57;"	d	file:
+NS_INADDRSZ	inet_pton.c	56;"	d	file:
+NS_INT16SZ	inet_pton.c	58;"	d	file:
+NWORDS	test-signbit.c	108;"	d	file:
+NWORDS	test-signbit.c	122;"	d	file:
+NWORDS	test-signbit.c	151;"	d	file:
+NWORDS	test-signbit.c	159;"	d	file:
+NWORDS	test-signbit.c	160;"	d	file:
+NWORDS	test-signbit.c	175;"	d	file:
+NWORDS	test-signbit.c	63;"	d	file:
+NWORDS	test-signbit.c	79;"	d	file:
+NZ	test-strftime.c	97;"	d	file:
+PTRDIFF_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (ptrdiff_t) == PTRDIFF_MAX);$/;"	v
+PTRDIFF_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (ptrdiff_t) == PTRDIFF_MIN);$/;"	v
+Pacific	test-strftime.c	87;"	d	file:
+RANDOM	test-frexp.c	58;"	d	file:
+RANDOM	test-frexpl.c	65;"	d	file:
+REPEAT_COUNT	test-lock.c	62;"	d	file:
+REPEAT_COUNT	test-tls.c	47;"	d	file:
+SA_NOCLDSTOP	test-sigaction.c	32;"	d	file:
+SA_NOCLDWAIT	test-sigaction.c	47;"	d	file:
+SA_ONSTACK	test-sigaction.c	35;"	d	file:
+SA_RESETHAND	test-sigaction.c	38;"	d	file:
+SA_RESTART	test-sigaction.c	41;"	d	file:
+SA_SIGINFO	test-sigaction.c	44;"	d	file:
+SERV1	test-getaddrinfo.c	155;"	d	file:
+SERV2	test-getaddrinfo.c	157;"	d	file:
+SERV3	test-getaddrinfo.c	159;"	d	file:
+SERV4	test-getaddrinfo.c	161;"	d	file:
+SET_BINARY	binary-io.h	68;"	d
+SHR	test-parse-datetime.c	61;"	d	file:
+SIG_ATOMIC_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (sig_atomic_t) == SIG_ATOMIC_MAX);$/;"	v
+SIG_ATOMIC_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (sig_atomic_t) == SIG_ATOMIC_MIN);$/;"	v
+SIZE_BITS	localename.c	2600;"	d	file:
+SIZE_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (size_t) == SIZE_MAX);$/;"	v
+STREQ	test-argv-iter.c	29;"	d	file:
+STREQ	test-getprogname.c	24;"	d	file:
+STREQ	test-getprogname.c	26;"	d	file:
+STREQ	test-hash.c	32;"	d	file:
+STREQ	test-inttostr.c	30;"	d	file:
+STREQ	test-strftime.c	29;"	d	file:
+STREQ	test-userspec.c	81;"	d	file:
+SUBLANG_AFRIKAANS_SOUTH_AFRICA	localename.c	543;"	d	file:
+SUBLANG_ALBANIAN_ALBANIA	localename.c	546;"	d	file:
+SUBLANG_ALSATIAN_FRANCE	localename.c	549;"	d	file:
+SUBLANG_AMHARIC_ETHIOPIA	localename.c	552;"	d	file:
+SUBLANG_ARABIC_ALGERIA	localename.c	567;"	d	file:
+SUBLANG_ARABIC_BAHRAIN	localename.c	597;"	d	file:
+SUBLANG_ARABIC_EGYPT	localename.c	561;"	d	file:
+SUBLANG_ARABIC_IRAQ	localename.c	558;"	d	file:
+SUBLANG_ARABIC_JORDAN	localename.c	585;"	d	file:
+SUBLANG_ARABIC_KUWAIT	localename.c	591;"	d	file:
+SUBLANG_ARABIC_LEBANON	localename.c	588;"	d	file:
+SUBLANG_ARABIC_LIBYA	localename.c	564;"	d	file:
+SUBLANG_ARABIC_MOROCCO	localename.c	570;"	d	file:
+SUBLANG_ARABIC_OMAN	localename.c	576;"	d	file:
+SUBLANG_ARABIC_QATAR	localename.c	600;"	d	file:
+SUBLANG_ARABIC_SAUDI_ARABIA	localename.c	555;"	d	file:
+SUBLANG_ARABIC_SYRIA	localename.c	582;"	d	file:
+SUBLANG_ARABIC_TUNISIA	localename.c	573;"	d	file:
+SUBLANG_ARABIC_UAE	localename.c	594;"	d	file:
+SUBLANG_ARABIC_YEMEN	localename.c	579;"	d	file:
+SUBLANG_ARMENIAN_ARMENIA	localename.c	603;"	d	file:
+SUBLANG_ASSAMESE_INDIA	localename.c	606;"	d	file:
+SUBLANG_AZERI_CYRILLIC	localename.c	612;"	d	file:
+SUBLANG_AZERI_LATIN	localename.c	609;"	d	file:
+SUBLANG_BASHKIR_RUSSIA	localename.c	615;"	d	file:
+SUBLANG_BASQUE_BASQUE	localename.c	618;"	d	file:
+SUBLANG_BELARUSIAN_BELARUS	localename.c	621;"	d	file:
+SUBLANG_BENGALI_BANGLADESH	localename.c	627;"	d	file:
+SUBLANG_BENGALI_INDIA	localename.c	624;"	d	file:
+SUBLANG_BOSNIAN_BOSNIA_HERZEGOVINA_CYRILLIC	localename.c	633;"	d	file:
+SUBLANG_BOSNIAN_BOSNIA_HERZEGOVINA_LATIN	localename.c	630;"	d	file:
+SUBLANG_BRETON_FRANCE	localename.c	636;"	d	file:
+SUBLANG_BULGARIAN_BULGARIA	localename.c	639;"	d	file:
+SUBLANG_CAMBODIAN_CAMBODIA	localename.c	642;"	d	file:
+SUBLANG_CATALAN_SPAIN	localename.c	645;"	d	file:
+SUBLANG_CHINESE_MACAU	localename.c	657;"	d	file:
+SUBLANG_CORSICAN_FRANCE	localename.c	648;"	d	file:
+SUBLANG_CROATIAN_BOSNIA_HERZEGOVINA_LATIN	localename.c	654;"	d	file:
+SUBLANG_CROATIAN_CROATIA	localename.c	651;"	d	file:
+SUBLANG_CZECH_CZECH_REPUBLIC	localename.c	660;"	d	file:
+SUBLANG_DANISH_DENMARK	localename.c	663;"	d	file:
+SUBLANG_DARI_AFGHANISTAN	localename.c	666;"	d	file:
+SUBLANG_DIVEHI_MALDIVES	localename.c	669;"	d	file:
+SUBLANG_DUTCH_SURINAM	localename.c	672;"	d	file:
+SUBLANG_ENGLISH_BELIZE	localename.c	684;"	d	file:
+SUBLANG_ENGLISH_CARIBBEAN	localename.c	681;"	d	file:
+SUBLANG_ENGLISH_HONGKONG	localename.c	699;"	d	file:
+SUBLANG_ENGLISH_INDIA	localename.c	702;"	d	file:
+SUBLANG_ENGLISH_INDONESIA	localename.c	696;"	d	file:
+SUBLANG_ENGLISH_JAMAICA	localename.c	678;"	d	file:
+SUBLANG_ENGLISH_MALAYSIA	localename.c	705;"	d	file:
+SUBLANG_ENGLISH_PHILIPPINES	localename.c	693;"	d	file:
+SUBLANG_ENGLISH_SINGAPORE	localename.c	708;"	d	file:
+SUBLANG_ENGLISH_SOUTH_AFRICA	localename.c	675;"	d	file:
+SUBLANG_ENGLISH_TRINIDAD	localename.c	687;"	d	file:
+SUBLANG_ENGLISH_ZIMBABWE	localename.c	690;"	d	file:
+SUBLANG_ESTONIAN_ESTONIA	localename.c	711;"	d	file:
+SUBLANG_FAEROESE_FAROE_ISLANDS	localename.c	714;"	d	file:
+SUBLANG_FARSI_IRAN	localename.c	717;"	d	file:
+SUBLANG_FINNISH_FINLAND	localename.c	720;"	d	file:
+SUBLANG_FRENCH_CAMEROON	localename.c	741;"	d	file:
+SUBLANG_FRENCH_CONGO	localename.c	735;"	d	file:
+SUBLANG_FRENCH_COTEDIVOIRE	localename.c	744;"	d	file:
+SUBLANG_FRENCH_HAITI	localename.c	753;"	d	file:
+SUBLANG_FRENCH_LUXEMBOURG	localename.c	723;"	d	file:
+SUBLANG_FRENCH_MALI	localename.c	747;"	d	file:
+SUBLANG_FRENCH_MONACO	localename.c	726;"	d	file:
+SUBLANG_FRENCH_MOROCCO	localename.c	750;"	d	file:
+SUBLANG_FRENCH_REUNION	localename.c	732;"	d	file:
+SUBLANG_FRENCH_SENEGAL	localename.c	738;"	d	file:
+SUBLANG_FRENCH_WESTINDIES	localename.c	729;"	d	file:
+SUBLANG_FRISIAN_NETHERLANDS	localename.c	756;"	d	file:
+SUBLANG_GALICIAN_SPAIN	localename.c	759;"	d	file:
+SUBLANG_GEORGIAN_GEORGIA	localename.c	762;"	d	file:
+SUBLANG_GERMAN_LIECHTENSTEIN	localename.c	768;"	d	file:
+SUBLANG_GERMAN_LUXEMBOURG	localename.c	765;"	d	file:
+SUBLANG_GREEK_GREECE	localename.c	771;"	d	file:
+SUBLANG_GREENLANDIC_GREENLAND	localename.c	774;"	d	file:
+SUBLANG_GUJARATI_INDIA	localename.c	777;"	d	file:
+SUBLANG_HAUSA_NIGERIA_LATIN	localename.c	780;"	d	file:
+SUBLANG_HEBREW_ISRAEL	localename.c	783;"	d	file:
+SUBLANG_HINDI_INDIA	localename.c	786;"	d	file:
+SUBLANG_HUNGARIAN_HUNGARY	localename.c	789;"	d	file:
+SUBLANG_ICELANDIC_ICELAND	localename.c	792;"	d	file:
+SUBLANG_IGBO_NIGERIA	localename.c	795;"	d	file:
+SUBLANG_INDONESIAN_INDONESIA	localename.c	798;"	d	file:
+SUBLANG_INUKTITUT_CANADA	localename.c	801;"	d	file:
+SUBLANG_INUKTITUT_CANADA_LATIN	localename.c	803;"	d	file:
+SUBLANG_INUKTITUT_CANADA_LATIN	localename.c	804;"	d	file:
+SUBLANG_IRISH_IRELAND	localename.c	805;"	d	file:
+SUBLANG_IRISH_IRELAND	localename.c	806;"	d	file:
+SUBLANG_JAPANESE_JAPAN	localename.c	808;"	d	file:
+SUBLANG_KANNADA_INDIA	localename.c	811;"	d	file:
+SUBLANG_KASHMIRI_INDIA	localename.c	814;"	d	file:
+SUBLANG_KAZAK_KAZAKHSTAN	localename.c	817;"	d	file:
+SUBLANG_KICHE_GUATEMALA	localename.c	820;"	d	file:
+SUBLANG_KINYARWANDA_RWANDA	localename.c	823;"	d	file:
+SUBLANG_KONKANI_INDIA	localename.c	826;"	d	file:
+SUBLANG_KYRGYZ_KYRGYZSTAN	localename.c	829;"	d	file:
+SUBLANG_LAO_LAOS	localename.c	832;"	d	file:
+SUBLANG_LATVIAN_LATVIA	localename.c	835;"	d	file:
+SUBLANG_LITHUANIAN_LITHUANIA	localename.c	838;"	d	file:
+SUBLANG_LOWER_SORBIAN_GERMANY	localename.c	840;"	d	file:
+SUBLANG_LOWER_SORBIAN_GERMANY	localename.c	841;"	d	file:
+SUBLANG_LUXEMBOURGISH_LUXEMBOURG	localename.c	843;"	d	file:
+SUBLANG_MACEDONIAN_MACEDONIA	localename.c	846;"	d	file:
+SUBLANG_MALAYALAM_INDIA	localename.c	855;"	d	file:
+SUBLANG_MALAY_BRUNEI_DARUSSALAM	localename.c	852;"	d	file:
+SUBLANG_MALAY_MALAYSIA	localename.c	849;"	d	file:
+SUBLANG_MALTESE_MALTA	localename.c	858;"	d	file:
+SUBLANG_MAORI_NEW_ZEALAND	localename.c	861;"	d	file:
+SUBLANG_MAPUDUNGUN_CHILE	localename.c	864;"	d	file:
+SUBLANG_MARATHI_INDIA	localename.c	867;"	d	file:
+SUBLANG_MOHAWK_CANADA	localename.c	870;"	d	file:
+SUBLANG_MONGOLIAN_CYRILLIC_MONGOLIA	localename.c	873;"	d	file:
+SUBLANG_MONGOLIAN_PRC	localename.c	876;"	d	file:
+SUBLANG_NEPALI_INDIA	localename.c	882;"	d	file:
+SUBLANG_NEPALI_NEPAL	localename.c	879;"	d	file:
+SUBLANG_OCCITAN_FRANCE	localename.c	885;"	d	file:
+SUBLANG_ORIYA_INDIA	localename.c	888;"	d	file:
+SUBLANG_PASHTO_AFGHANISTAN	localename.c	891;"	d	file:
+SUBLANG_POLISH_POLAND	localename.c	894;"	d	file:
+SUBLANG_PUNJABI_INDIA	localename.c	897;"	d	file:
+SUBLANG_PUNJABI_PAKISTAN	localename.c	900;"	d	file:
+SUBLANG_QUECHUA_BOLIVIA	localename.c	903;"	d	file:
+SUBLANG_QUECHUA_ECUADOR	localename.c	906;"	d	file:
+SUBLANG_QUECHUA_PERU	localename.c	909;"	d	file:
+SUBLANG_ROMANIAN_MOLDOVA	localename.c	915;"	d	file:
+SUBLANG_ROMANIAN_ROMANIA	localename.c	912;"	d	file:
+SUBLANG_ROMANSH_SWITZERLAND	localename.c	918;"	d	file:
+SUBLANG_RUSSIAN_MOLDAVIA	localename.c	924;"	d	file:
+SUBLANG_RUSSIAN_RUSSIA	localename.c	921;"	d	file:
+SUBLANG_SAMI_INARI_FINLAND	localename.c	949;"	d	file:
+SUBLANG_SAMI_INARI_FINLAND	localename.c	950;"	d	file:
+SUBLANG_SAMI_LULE_NORWAY	localename.c	936;"	d	file:
+SUBLANG_SAMI_LULE_SWEDEN	localename.c	939;"	d	file:
+SUBLANG_SAMI_NORTHERN_FINLAND	localename.c	933;"	d	file:
+SUBLANG_SAMI_NORTHERN_NORWAY	localename.c	927;"	d	file:
+SUBLANG_SAMI_NORTHERN_SWEDEN	localename.c	930;"	d	file:
+SUBLANG_SAMI_SKOLT_FINLAND	localename.c	947;"	d	file:
+SUBLANG_SAMI_SKOLT_FINLAND	localename.c	948;"	d	file:
+SUBLANG_SAMI_SOUTHERN_NORWAY	localename.c	942;"	d	file:
+SUBLANG_SAMI_SOUTHERN_SWEDEN	localename.c	945;"	d	file:
+SUBLANG_SANSKRIT_INDIA	localename.c	952;"	d	file:
+SUBLANG_SERBIAN_CYRILLIC	localename.c	958;"	d	file:
+SUBLANG_SERBIAN_LATIN	localename.c	955;"	d	file:
+SUBLANG_SINDHI_AFGHANISTAN	localename.c	966;"	d	file:
+SUBLANG_SINDHI_INDIA	localename.c	961;"	d	file:
+SUBLANG_SINDHI_PAKISTAN	localename.c	963;"	d	file:
+SUBLANG_SINDHI_PAKISTAN	localename.c	964;"	d	file:
+SUBLANG_SINHALESE_SRI_LANKA	localename.c	969;"	d	file:
+SUBLANG_SLOVAK_SLOVAKIA	localename.c	972;"	d	file:
+SUBLANG_SLOVENIAN_SLOVENIA	localename.c	975;"	d	file:
+SUBLANG_SOTHO_SOUTH_AFRICA	localename.c	978;"	d	file:
+SUBLANG_SPANISH_ARGENTINA	localename.c	1002;"	d	file:
+SUBLANG_SPANISH_BOLIVIA	localename.c	1017;"	d	file:
+SUBLANG_SPANISH_CHILE	localename.c	1008;"	d	file:
+SUBLANG_SPANISH_COLOMBIA	localename.c	996;"	d	file:
+SUBLANG_SPANISH_COSTA_RICA	localename.c	984;"	d	file:
+SUBLANG_SPANISH_DOMINICAN_REPUBLIC	localename.c	990;"	d	file:
+SUBLANG_SPANISH_ECUADOR	localename.c	1005;"	d	file:
+SUBLANG_SPANISH_EL_SALVADOR	localename.c	1020;"	d	file:
+SUBLANG_SPANISH_GUATEMALA	localename.c	981;"	d	file:
+SUBLANG_SPANISH_HONDURAS	localename.c	1023;"	d	file:
+SUBLANG_SPANISH_NICARAGUA	localename.c	1026;"	d	file:
+SUBLANG_SPANISH_PANAMA	localename.c	987;"	d	file:
+SUBLANG_SPANISH_PARAGUAY	localename.c	1014;"	d	file:
+SUBLANG_SPANISH_PERU	localename.c	999;"	d	file:
+SUBLANG_SPANISH_PUERTO_RICO	localename.c	1029;"	d	file:
+SUBLANG_SPANISH_URUGUAY	localename.c	1011;"	d	file:
+SUBLANG_SPANISH_US	localename.c	1032;"	d	file:
+SUBLANG_SPANISH_VENEZUELA	localename.c	993;"	d	file:
+SUBLANG_SWAHILI_KENYA	localename.c	1035;"	d	file:
+SUBLANG_SWEDISH_FINLAND	localename.c	1041;"	d	file:
+SUBLANG_SWEDISH_SWEDEN	localename.c	1038;"	d	file:
+SUBLANG_SYRIAC_SYRIA	localename.c	1044;"	d	file:
+SUBLANG_TAGALOG_PHILIPPINES	localename.c	1047;"	d	file:
+SUBLANG_TAJIK_TAJIKISTAN	localename.c	1050;"	d	file:
+SUBLANG_TAMAZIGHT_ALGERIA_LATIN	localename.c	1056;"	d	file:
+SUBLANG_TAMAZIGHT_ARABIC	localename.c	1053;"	d	file:
+SUBLANG_TAMIL_INDIA	localename.c	1059;"	d	file:
+SUBLANG_TATAR_RUSSIA	localename.c	1062;"	d	file:
+SUBLANG_TELUGU_INDIA	localename.c	1065;"	d	file:
+SUBLANG_THAI_THAILAND	localename.c	1068;"	d	file:
+SUBLANG_TIBETAN_BHUTAN	localename.c	1073;"	d	file:
+SUBLANG_TIBETAN_BHUTAN	localename.c	1074;"	d	file:
+SUBLANG_TIBETAN_PRC	localename.c	1071;"	d	file:
+SUBLANG_TIGRINYA_ERITREA	localename.c	1079;"	d	file:
+SUBLANG_TIGRINYA_ETHIOPIA	localename.c	1076;"	d	file:
+SUBLANG_TSWANA_SOUTH_AFRICA	localename.c	1082;"	d	file:
+SUBLANG_TURKISH_TURKEY	localename.c	1085;"	d	file:
+SUBLANG_TURKMEN_TURKMENISTAN	localename.c	1088;"	d	file:
+SUBLANG_UIGHUR_PRC	localename.c	1091;"	d	file:
+SUBLANG_UKRAINIAN_UKRAINE	localename.c	1094;"	d	file:
+SUBLANG_UPPER_SORBIAN_GERMANY	localename.c	1097;"	d	file:
+SUBLANG_URDU_INDIA	localename.c	1103;"	d	file:
+SUBLANG_URDU_PAKISTAN	localename.c	1100;"	d	file:
+SUBLANG_UZBEK_CYRILLIC	localename.c	1109;"	d	file:
+SUBLANG_UZBEK_LATIN	localename.c	1106;"	d	file:
+SUBLANG_VIETNAMESE_VIETNAM	localename.c	1112;"	d	file:
+SUBLANG_WELSH_UNITED_KINGDOM	localename.c	1115;"	d	file:
+SUBLANG_WOLOF_SENEGAL	localename.c	1118;"	d	file:
+SUBLANG_XHOSA_SOUTH_AFRICA	localename.c	1121;"	d	file:
+SUBLANG_YAKUT_RUSSIA	localename.c	1124;"	d	file:
+SUBLANG_YI_PRC	localename.c	1127;"	d	file:
+SUBLANG_YORUBA_NIGERIA	localename.c	1130;"	d	file:
+SUBLANG_ZULU_SOUTH_AFRICA	localename.c	1133;"	d	file:
+T	test-posixtm.c	/^static struct posixtm_test const T[] =$/;"	v	file:
+T	test-strftime.c	/^static struct posixtm_test const T[] =$/;"	v	file:
+T	test-userspec.c	/^static struct test T[] =$/;"	v	typeref:struct:test	file:
+TARGET_LEN	test-getcwd.c	39;"	d	file:
+TESTFILE	test-fpurge.c	30;"	d	file:
+TESTFILE	test-freading.c	30;"	d	file:
+TESTFILE	test-ftell3.c	28;"	d	file:
+TESTFILE	test-ftello3.c	28;"	d	file:
+TEST_ALIGNMENT	test-stdalign.c	48;"	d	file:
+TEST_ALIGNMENT	test-stdalign.c	52;"	d	file:
+TEST_POSIX_THREADS	test-lock.c	24;"	d	file:
+TEST_POSIX_THREADS	test-tls.c	24;"	d	file:
+TEST_PTH_THREADS	test-lock.c	30;"	d	file:
+TEST_PTH_THREADS	test-tls.c	30;"	d	file:
+TEST_SOLARIS_THREADS	test-lock.c	27;"	d	file:
+TEST_SOLARIS_THREADS	test-tls.c	27;"	d	file:
+TEST_STATAT	test-statat.c	26;"	d	file:
+TEST_WINDOWS_THREADS	test-lock.c	33;"	d	file:
+TEST_WINDOWS_THREADS	test-tls.c	33;"	d	file:
+THREAD_COUNT	test-lock.c	57;"	d	file:
+THREAD_COUNT	test-tls.c	44;"	d	file:
+TM_YEAR_BASE	test-parse-datetime.c	66;"	d	file:
+TZ	test-strftime.c	/^static struct tzalloc_test TZ[] =$/;"	v	typeref:struct:tzalloc_test	file:
+UINT16_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint16_t) == UINT16_MAX);$/;"	v
+UINT32_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint32_t) == UINT32_MAX);$/;"	v
+UINT64_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint64_t) == UINT64_MAX);$/;"	v
+UINT8_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint8_t) == UINT8_MAX);$/;"	v
+UINTMAX_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uintmax_t) == UINTMAX_MAX);$/;"	v
+UINTPTR_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uintptr_t) == UINTPTR_MAX);$/;"	v
+UINT_FAST16_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint_fast16_t) == UINT_FAST16_MAX);$/;"	v
+UINT_FAST32_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint_fast32_t) == UINT_FAST32_MAX);$/;"	v
+UINT_FAST64_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint_fast64_t) == UINT_FAST64_MAX);$/;"	v
+UINT_FAST8_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint_fast8_t) == UINT_FAST8_MAX);$/;"	v
+UINT_LEAST16_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint_least16_t) == UINT_LEAST16_MAX);$/;"	v
+UINT_LEAST32_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint_least32_t) == UINT_LEAST32_MAX);$/;"	v
+UINT_LEAST64_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint_least64_t) == UINT_LEAST64_MAX);$/;"	v
+UINT_LEAST8_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (uint_least8_t) == UINT_LEAST8_MAX);$/;"	v
+UNIT	test-strncat.c	31;"	d	file:
+USE_POSIX_THREADS	test-lock.c	69;"	d	file:
+USE_POSIX_THREADS	test-lock.c	78;"	d	file:
+USE_PTH_THREADS	test-lock.c	71;"	d	file:
+USE_PTH_THREADS	test-lock.c	84;"	d	file:
+USE_SOLARIS_THREADS	test-lock.c	70;"	d	file:
+USE_SOLARIS_THREADS	test-lock.c	81;"	d	file:
+USE_SYSTEM_STRERROR	strerror_r.c	59;"	d	file:
+USE_SYSTEM_STRERROR_R	strerror_r.c	50;"	d	file:
+USE_WINDOWS_THREADS	test-lock.c	72;"	d	file:
+USE_WINDOWS_THREADS	test-lock.c	87;"	d	file:
+USE_XPG_STRERROR_R	strerror_r.c	36;"	d	file:
+UTC	test-strftime.c	91;"	d	file:
+U_STRNCAT	test-strncat.c	32;"	d	file:
+VALIDATE_FLAG	at-func.c	37;"	d	file:
+VALIDATE_FLAG	at-func.c	45;"	d	file:
+VERIFY	test-intprops.c	48;"	d	file:
+VERIFY	test-intprops.c	50;"	d	file:
+VOLATILE	test-frexp.c	48;"	d	file:
+VOLATILE	test-frexpl.c	44;"	d	file:
+WCHAR_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (wchar_t) == WCHAR_MAX);$/;"	v
+WCHAR_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (wchar_t) == WCHAR_MIN);$/;"	v
+WIN32_LEAN_AND_MEAN	accept.c	22;"	d	file:
+WIN32_LEAN_AND_MEAN	bind.c	22;"	d	file:
+WIN32_LEAN_AND_MEAN	connect.c	22;"	d	file:
+WIN32_LEAN_AND_MEAN	glthread/thread.h	317;"	d
+WIN32_LEAN_AND_MEAN	glthread/yield.h	93;"	d
+WIN32_LEAN_AND_MEAN	ioctl.c	50;"	d	file:
+WIN32_LEAN_AND_MEAN	listen.c	22;"	d	file:
+WIN32_LEAN_AND_MEAN	localename.c	72;"	d	file:
+WIN32_LEAN_AND_MEAN	setsockopt.c	22;"	d	file:
+WIN32_LEAN_AND_MEAN	sleep.c	29;"	d	file:
+WIN32_LEAN_AND_MEAN	socket.c	22;"	d	file:
+WIN32_LEAN_AND_MEAN	test-cloexec.c	29;"	d	file:
+WIN32_LEAN_AND_MEAN	test-dup-safer.c	34;"	d	file:
+WIN32_LEAN_AND_MEAN	test-dup2.c	41;"	d	file:
+WIN32_LEAN_AND_MEAN	test-fcntl.c	35;"	d	file:
+WIN32_LEAN_AND_MEAN	test-pipe.c	29;"	d	file:
+WINDOWS_NATIVE	localename.c	65;"	d	file:
+WINT_MAX	test-stdint.c	/^verify (TYPE_MAXIMUM (wint_t) == WINT_MAX);$/;"	v
+WINT_MIN	test-stdint.c	/^verify (TYPE_MINIMUM (wint_t) == WINT_MIN);$/;"	v
+_Alignas	test-stdalign.c	50;"	d	file:
+_BINARY_H	binary-io.h	18;"	d
+_GLTHREAD_THREAD_H	glthread/thread.h	72;"	d
+_GLTHREAD_THREAD_INLINE	glthread/thread.c	24;"	d	file:
+_GLTHREAD_THREAD_INLINE	glthread/thread.h	82;"	d
+_GLTHREAD_YIELD_H	glthread/yield.h	22;"	d
+_GL_ATTRIBUTE_RETURN_CHECK	test-ignore-value.c	28;"	d	file:
+_GL_ATTRIBUTE_RETURN_CHECK	test-ignore-value.c	30;"	d	file:
+_GL_NO_LARGE_FILES	test-fflush.c	23;"	d	file:
+_GL_NO_LARGE_FILES	test-fpurge.c	23;"	d	file:
+_GL_NO_LARGE_FILES	test-freading.c	23;"	d	file:
+_GL_NO_LARGE_FILES	test-fseek.c	23;"	d	file:
+_GL_NO_LARGE_FILES	test-fseeko.c	23;"	d	file:
+_GL_NO_LARGE_FILES	test-ftell.c	23;"	d	file:
+_GL_NO_LARGE_FILES	test-ftell3.c	21;"	d	file:
+_GL_NO_LARGE_FILES	test-ftello.c	23;"	d	file:
+_GL_NO_LARGE_FILES	test-ftello3.c	21;"	d	file:
+_GL_NO_LARGE_FILES	test-getopt.c	23;"	d	file:
+_GL_UNUSED	test-dirent.c	/^static DIR *dir _GL_UNUSED;$/;"	v	file:
+_NETBSD_SOURCE	strerror_r.c	23;"	d	file:
+__getopt_argv_const	test-getopt.c	29;"	d	file:
+__spec	test-xstrtoimax.c	3;"	d	file:
+__spec	test-xstrtol.c	29;"	d	file:
+__spec	test-xstrtoul.c	3;"	d	file:
+__spec	test-xstrtoumax.c	3;"	d	file:
+__strtol_t	test-xstrtoimax.c	2;"	d	file:
+__strtol_t	test-xstrtol.c	28;"	d	file:
+__strtol_t	test-xstrtoul.c	2;"	d	file:
+__strtol_t	test-xstrtoumax.c	2;"	d	file:
+__xstrtol	test-xstrtoimax.c	1;"	d	file:
+__xstrtol	test-xstrtol.c	27;"	d	file:
+__xstrtol	test-xstrtoul.c	1;"	d	file:
+__xstrtol	test-xstrtoumax.c	1;"	d	file:
+_verify_func	test-stdint.c	33;"	d	file:
+_verify_func2	test-stdint.c	34;"	d	file:
+a	test-alignof.c	/^typedef struct { char a[1]; } struct1;$/;"	m	struct:__anon8	file:
+a	test-alignof.c	/^typedef struct { char a[2]; } struct2;$/;"	m	struct:__anon9	file:
+a	test-alignof.c	/^typedef struct { char a[3]; } struct3;$/;"	m	struct:__anon10	file:
+a	test-alignof.c	/^typedef struct { char a[4]; } struct4;$/;"	m	struct:__anon11	file:
+a	test-float.c	/^int a[] = { FLT_RADIX };$/;"	v
+a	test-locale.c	/^int a[] =$/;"	v
+a	test-pathmax.c	/^int a = PATH_MAX;$/;"	v
+a	test-sched.c	/^static struct sched_param a;$/;"	v	typeref:struct:sched_param	file:
+a	test-signal-h.c	/^  size_t a;$/;"	m	struct:__anon16	file:
+a	test-stdalign.c	/^typedef struct { char a[1]; } struct1;$/;"	m	struct:__anon12	file:
+a	test-stdalign.c	/^typedef struct { char a[2]; } struct2;$/;"	m	struct:__anon13	file:
+a	test-stdalign.c	/^typedef struct { char a[3]; } struct3;$/;"	m	struct:__anon14	file:
+a	test-stdalign.c	/^typedef struct { char a[4]; } struct4;$/;"	m	struct:__anon15	file:
+a	test-stdbool.c	/^char a[true == 1 ? 1 : -1];$/;"	v
+a	test-stddef.c	/^wchar_t a = 'c';$/;"	v
+a	test-sys_select.c	/^struct timeval a;$/;"	v	typeref:struct:timeval
+a	test-sys_socket.c	/^int a[] = { SHUT_RD, SHUT_WR, SHUT_RDWR };$/;"	v
+a	test-sys_stat.c	/^int a[] =$/;"	v
+a	test-sys_time.c	/^struct timeval a;$/;"	v	typeref:struct:timeval
+a	test-sys_uio.c	/^size_t a;$/;"	v
+a	test-sys_wait.c	/^static pid_t a;$/;"	v	file:
+a	test-verify.c	/^enum { a, b, c };$/;"	e	enum:__anon3	file:
+a	test-wchar.c	/^wchar_t a = 'c';$/;"	v
+a	test-wctype-h.c	/^wint_t a = 'x';$/;"	v
+a1	test-stdint.c	/^int8_t a1[3] = { INT8_C (17), INT8_MIN, INT8_MAX };$/;"	v
+a2	test-stdint.c	/^int16_t a2[3] = { INT16_C (17), INT16_MIN, INT16_MAX };$/;"	v
+a3	test-stdint.c	/^int32_t a3[3] = { INT32_C (17), INT32_MIN, INT32_MAX };$/;"	v
+a4	test-stdint.c	/^int64_t a4[3] = { INT64_C (17), INT64_MIN, INT64_MAX };$/;"	v
+absolute	test-dirname.c	/^  bool absolute;        \/* IS_ABSOLUTE_FILE_NAME (name).  *\/$/;"	m	struct:test	file:
+accept	accept.c	29;"	d	file:
+account	test-lock.c	/^static int account[ACCOUNT_COUNT];$/;"	v	file:
+add_to_interval	uniwidth/test-uc_width2.c	/^add_to_interval (ucs4_t uc, char width)$/;"	f	file:
+ahistorical	test-strftime.c	/^  int ahistorical;$/;"	m	struct:localtime_rz_test	file:
+alignas	test-stdalign.c	51;"	d	file:
+arg	glthread/thread.c	/^  void *arg;$/;"	m	struct:gl_thread_struct	file:
+b	test-sched.c	/^int b[] = { SCHED_FIFO, SCHED_RR, SCHED_OTHER };$/;"	v
+b	test-signal-h.c	/^  uid_t b;$/;"	m	struct:__anon16	file:
+b	test-stdbool.c	/^char b[false == 0 ? 1 : -1];$/;"	v
+b	test-stddef.c	/^ptrdiff_t b = 1;$/;"	v
+b	test-sys_uio.c	/^ssize_t b;$/;"	v
+b	test-verify.c	/^enum { a, b, c };$/;"	e	enum:__anon3	file:
+b	test-wchar.c	/^wint_t b = 'x';$/;"	v
+b1	test-stdint.c	/^uint8_t b1[2] = { UINT8_C (17), UINT8_MAX };$/;"	v
+b2	test-stdint.c	/^uint16_t b2[2] = { UINT16_C (17), UINT16_MAX };$/;"	v
+b3	test-stdint.c	/^uint32_t b3[2] = { UINT32_C (17), UINT32_MAX };$/;"	v
+b4	test-stdint.c	/^uint64_t b4[2] = { UINT64_C (17), UINT64_MAX };$/;"	v
+backup_args	test-argmatch.c	/^static const char *const backup_args[] =$/;"	v	file:
+backup_type	test-argmatch.c	/^enum backup_type$/;"	g	file:
+backup_vals	test-argmatch.c	/^static const enum backup_type backup_vals[] =$/;"	v	typeref:enum:backup_type	file:
+base	test-dirname.c	/^  const char *base;     \/* base_name (name).  *\/$/;"	m	struct:test	file:
+basic	test-readtokens.c	/^basic (void)$/;"	f	file:
+bind	bind.c	29;"	d	file:
+c	test-signal-h.c	/^  volatile sig_atomic_t c;$/;"	m	struct:__anon16	file:
+c	test-stdbool.c	/^char c[__bool_true_false_are_defined == 1 ? 1 : -1];$/;"	v
+c	test-stddef.c	/^size_t c = 2;$/;"	v
+c	test-sys_uio.c	/^struct iovec c;$/;"	v	typeref:struct:iovec
+c	test-verify.c	/^enum { a, b, c };$/;"	e	enum:__anon3	file:
+c1	test-stdint.c	/^int_least8_t c1[3] = { 17, INT_LEAST8_MIN, INT_LEAST8_MAX };$/;"	v
+c2	test-stdint.c	/^int_least16_t c2[3] = { 17, INT_LEAST16_MIN, INT_LEAST16_MAX };$/;"	v
+c3	test-stdint.c	/^int_least32_t c3[3] = { 17, INT_LEAST32_MIN, INT_LEAST32_MAX };$/;"	v
+c4	test-stdint.c	/^int_least64_t c4[3] = { 17, INT_LEAST64_MIN, INT_LEAST64_MAX };$/;"	v
+cannot_unlink_dir	unlinkdir.c	/^cannot_unlink_dir (void)$/;"	f
+cat	test-localename.c	/^static struct { int cat; int mask; const char *string; } const categories[] =$/;"	m	struct:__anon7	file:
+categories	test-localename.c	/^static struct { int cat; int mask; const char *string; } const categories[] =$/;"	v	file:
+category_to_name	setlocale.c	/^category_to_name (int category)$/;"	f	file:
+check_accounts	test-lock.c	/^check_accounts (void)$/;"	f	file:
+check_avg	test-getloadavg.c	/^check_avg (int minutes, double avg, int printit)$/;"	f	file:
+check_character	test-wcrtomb.c	/^check_character (const char *s, size_t n)$/;"	f	file:
+check_flags	test-fcntl.c	/^check_flags (void)$/;"	f	file:
+check_same_link	test-linkat.c	/^check_same_link (char const *name1, char const *name2)$/;"	f	file:
+cleanup	test-stat-time.c	/^cleanup (int sig)$/;"	f	file:
+cmp	test-timespec.c	/^cmp (struct timespec a, struct timespec b)$/;"	f	file:
+code	setlocale.c	/^  const char *code;$/;"	m	struct:table_entry	file:
+connect	connect.c	29;"	d	file:
+contents	localename.c	/^    char contents[FLEXIBLE_ARRAY_MEMBER];$/;"	m	struct:hash_node	file:
+country_table	setlocale.c	/^static const struct table_entry country_table[] =$/;"	v	typeref:struct:table_entry	file:
+create_file	test-stat-time.c	/^create_file (const char *filename)$/;"	f	file:
+current_end	uniwidth/test-uc_width2.c	/^static ucs4_t current_end;$/;"	v	file:
+current_start	uniwidth/test-uc_width2.c	/^static ucs4_t current_start;$/;"	v	file:
+current_width	uniwidth/test-uc_width2.c	/^static char current_width;$/;"	v	file:
+custom_quotes	test-quotearg-simple.c	/^static char const *custom_quotes[][2] = {$/;"	v	file:
+custom_results	test-quotearg-simple.c	/^static struct result_groups custom_results[] = {$/;"	v	typeref:struct:result_groups	file:
+d	test-dirent.c	/^static struct dirent d;$/;"	v	typeref:struct:dirent	file:
+d	test-signal-h.c	/^  sigset_t d;$/;"	m	struct:__anon16	file:
+d	test-stdbool.c	/^char d[(bool) 0.5 == true ? 1 : -1];$/;"	v
+d	test-stddef.c	/^struct d$/;"	s	file:
+d1	test-stdint.c	/^uint_least8_t d1[2] = { 17, UINT_LEAST8_MAX };$/;"	v
+d2	test-stdint.c	/^uint_least16_t d2[2] = { 17, UINT_LEAST16_MAX };$/;"	v
+d3	test-stdint.c	/^uint_least32_t d3[2] = { 17, UINT_LEAST32_MAX };$/;"	v
+d4	test-stdint.c	/^uint_least64_t d4[2] = { 17, UINT_LEAST64_MAX };$/;"	v
+day_table	test-parse-datetime.c	/^static const char *const day_table[] =$/;"	v	file:
+db	test-float.c	/^int db[] =$/;"	v
+dbgprintf	test-getaddrinfo.c	41;"	d	file:
+dbgprintf	test-getaddrinfo.c	43;"	d	file:
+dbgprintf	test-lock.c	95;"	d	file:
+dbgprintf	test-lock.c	97;"	d	file:
+dbgprintf	test-tls.c	58;"	d	file:
+dbgprintf	test-tls.c	60;"	d	file:
+dc	test-float.c	/^double dc[] = { DBL_EPSILON, DBL_MIN, DBL_MAX };$/;"	v
+dfd	test-areadlinkat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd	test-fchownat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd	test-fdutimensat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd	test-fstatat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd	test-openat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd	test-readlinkat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd	test-symlinkat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd	test-unlinkat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd	test-utimensat.c	/^static int dfd = AT_FDCWD;$/;"	v	file:
+dfd1	test-linkat.c	/^static int dfd1 = AT_FDCWD;$/;"	v	file:
+dfd2	test-linkat.c	/^static int dfd2 = AT_FDCWD;$/;"	v	file:
+dir	test-dirname.c	/^  const char *dir;      \/* dir_name (name).  *\/$/;"	m	struct:test	file:
+doChar	test-ignore-value.c	/^doChar (void)$/;"	f	file:
+doInt	test-ignore-value.c	/^doInt (void)$/;"	f	file:
+doOff	test-ignore-value.c	/^doOff (void)$/;"	f	file:
+doPtr	test-ignore-value.c	/^doPtr (void)$/;"	f	file:
+doStruct	test-ignore-value.c	/^doStruct (void)$/;"	f	file:
+do_allocation	test-alloca-opt.c	/^do_allocation (int n)$/;"	f	file:
+do_allocation	test-malloca.c	/^do_allocation (int n)$/;"	f	file:
+do_areadlink	test-areadlink.c	/^do_areadlink (char const *name, size_t ignored _GL_UNUSED)$/;"	f	file:
+do_areadlinkat	test-areadlinkat.c	/^do_areadlinkat (char const *name, size_t ignored _GL_UNUSED)$/;"	f	file:
+do_chown	test-fchownat.c	/^do_chown (char const *name, uid_t user, gid_t group)$/;"	f	file:
+do_fdutimens	test-fdutimensat.c	/^do_fdutimens (char const *name, struct timespec const times[2])$/;"	f	file:
+do_fdutimens	test-utimens.c	/^do_fdutimens (char const *name, struct timespec const times[2])$/;"	f	file:
+do_futimens	test-fdutimensat.c	/^do_futimens (int fd, struct timespec const times[2])$/;"	f	file:
+do_futimens	test-utimens.c	/^do_futimens (int fd, struct timespec const times[2])$/;"	f	file:
+do_init_self_key	glthread/thread.c	/^do_init_self_key (void)$/;"	f	file:
+do_lchown	test-fchownat.c	/^do_lchown (char const *name, uid_t user, gid_t group)$/;"	f	file:
+do_link	test-linkat.c	/^do_link (char const *name1, char const *name2)$/;"	f	file:
+do_lstat	test-fstatat.c	/^do_lstat (char const *name, struct stat *st)$/;"	f	file:
+do_lstat	test-lstat.c	/^do_lstat (char const *name, struct stat *st)$/;"	f	file:
+do_lutimens	test-fdutimensat.c	/^do_lutimens (const char *name, struct timespec const times[2])$/;"	f	file:
+do_lutimens1	test-fdutimensat.c	/^do_lutimens1 (const char *name, struct timespec const times[2])$/;"	f	file:
+do_lutimensat	test-utimensat.c	/^do_lutimensat (char const *name, struct timespec const times[2])$/;"	f	file:
+do_mknod	test-mknod.c	/^do_mknod (char const *name, mode_t mode)$/;"	f	file:
+do_open	test-openat.c	/^do_open (char const *name, int flags, ...)$/;"	f	file:
+do_readlink	test-readlinkat.c	/^do_readlink (char const *name, char *buf, size_t len)$/;"	f	file:
+do_stat	test-fstatat.c	/^do_stat (char const *name, struct stat *st)$/;"	f	file:
+do_stat	test-stat-time.c	/^do_stat (const char *filename, struct stat *p)$/;"	f	file:
+do_stat	test-stat.c	/^do_stat (char const *name, struct stat *st)$/;"	f	file:
+do_symlink	test-symlinkat.c	/^do_symlink (char const *contents, char const *name)$/;"	f	file:
+do_utimens	test-fdutimensat.c	/^do_utimens (const char *name, struct timespec const times[2])$/;"	f	file:
+do_utimensat	test-utimensat.c	/^do_utimensat (char const *name, struct timespec const times[2])$/;"	f	file:
+dummy	binary-io.c	/^typedef int dummy;$/;"	t	file:
+dummy	test-thread_create.c	/^static int dummy;$/;"	v	file:
+dummy_struct	test-fcntl.c	/^struct dummy_struct$/;"	s	file:
+e	test-iswblank.c	/^wint_t e = WEOF;$/;"	v
+e	test-signal-h.c	/^  pid_t e;$/;"	m	struct:__anon16	file:
+e	test-stdbool.c	/^bool e = &s;$/;"	v
+e	test-stddef.c	/^  char e;$/;"	m	struct:d	file:
+e	test-wctype-h.c	/^wint_t e = WEOF;$/;"	v
+e1	test-errno.c	/^int e1 = EPERM;$/;"	v
+e1	test-stdint.c	/^int_fast8_t e1[3] = { 17, INT_FAST8_MIN, INT_FAST8_MAX };$/;"	v
+e10	test-errno.c	/^int e10 = ECHILD;$/;"	v
+e100	test-errno.c	/^int e100 = ENETDOWN;$/;"	v
+e101	test-errno.c	/^int e101 = ENETUNREACH;$/;"	v
+e102	test-errno.c	/^int e102 = ENETRESET;$/;"	v
+e103	test-errno.c	/^int e103 = ECONNABORTED;$/;"	v
+e104	test-errno.c	/^int e104 = ECONNRESET;$/;"	v
+e105	test-errno.c	/^int e105 = ENOBUFS;$/;"	v
+e106	test-errno.c	/^int e106 = EISCONN;$/;"	v
+e107	test-errno.c	/^int e107 = ENOTCONN;$/;"	v
+e11	test-errno.c	/^int e11 = EAGAIN;$/;"	v
+e110	test-errno.c	/^int e110 = ETIMEDOUT;$/;"	v
+e111	test-errno.c	/^int e111 = ECONNREFUSED;$/;"	v
+e113	test-errno.c	/^int e113 = EHOSTUNREACH;$/;"	v
+e114	test-errno.c	/^int e114 = EALREADY;$/;"	v
+e115	test-errno.c	/^int e115 = EINPROGRESS;$/;"	v
+e116	test-errno.c	/^int e116 = ESTALE;$/;"	v
+e11a	test-errno.c	/^int e11a = EWOULDBLOCK;$/;"	v
+e12	test-errno.c	/^int e12 = ENOMEM;$/;"	v
+e122	test-errno.c	/^int e122 = EDQUOT;$/;"	v
+e125	test-errno.c	/^int e125 = ECANCELED;$/;"	v
+e13	test-errno.c	/^int e13 = EACCES;$/;"	v
+e130	test-errno.c	/^int e130 = EOWNERDEAD;$/;"	v
+e131	test-errno.c	/^int e131 = ENOTRECOVERABLE;$/;"	v
+e14	test-errno.c	/^int e14 = EFAULT;$/;"	v
+e16	test-errno.c	/^int e16 = EBUSY;$/;"	v
+e17	test-errno.c	/^int e17 = EEXIST;$/;"	v
+e18	test-errno.c	/^int e18 = EXDEV;$/;"	v
+e19	test-errno.c	/^int e19 = ENODEV;$/;"	v
+e2	test-errno.c	/^int e2 = ENOENT;$/;"	v
+e2	test-stdint.c	/^int_fast16_t e2[3] = { 17, INT_FAST16_MIN, INT_FAST16_MAX };$/;"	v
+e20	test-errno.c	/^int e20 = ENOTDIR;$/;"	v
+e21	test-errno.c	/^int e21 = EISDIR;$/;"	v
+e22	test-errno.c	/^int e22 = EINVAL;$/;"	v
+e23	test-errno.c	/^int e23 = ENFILE;$/;"	v
+e24	test-errno.c	/^int e24 = EMFILE;$/;"	v
+e25	test-errno.c	/^int e25 = ENOTTY;$/;"	v
+e26	test-errno.c	/^int e26 = ETXTBSY;$/;"	v
+e27	test-errno.c	/^int e27 = EFBIG;$/;"	v
+e28	test-errno.c	/^int e28 = ENOSPC;$/;"	v
+e29	test-errno.c	/^int e29 = ESPIPE;$/;"	v
+e3	test-errno.c	/^int e3 = ESRCH;$/;"	v
+e3	test-stdint.c	/^int_fast32_t e3[3] = { 17, INT_FAST32_MIN, INT_FAST32_MAX };$/;"	v
+e30	test-errno.c	/^int e30 = EROFS;$/;"	v
+e31	test-errno.c	/^int e31 = EMLINK;$/;"	v
+e32	test-errno.c	/^int e32 = EPIPE;$/;"	v
+e33	test-errno.c	/^int e33 = EDOM;$/;"	v
+e34	test-errno.c	/^int e34 = ERANGE;$/;"	v
+e35	test-errno.c	/^int e35 = EDEADLK;$/;"	v
+e36	test-errno.c	/^int e36 = ENAMETOOLONG;$/;"	v
+e37	test-errno.c	/^int e37 = ENOLCK;$/;"	v
+e38	test-errno.c	/^int e38 = ENOSYS;$/;"	v
+e39	test-errno.c	/^int e39 = ENOTEMPTY;$/;"	v
+e4	test-errno.c	/^int e4 = EINTR;$/;"	v
+e4	test-stdint.c	/^int_fast64_t e4[3] = { 17, INT_FAST64_MIN, INT_FAST64_MAX };$/;"	v
+e40	test-errno.c	/^int e40 = ELOOP;$/;"	v
+e42	test-errno.c	/^int e42 = ENOMSG;$/;"	v
+e43	test-errno.c	/^int e43 = EIDRM;$/;"	v
+e5	test-errno.c	/^int e5 = EIO;$/;"	v
+e6	test-errno.c	/^int e6 = ENXIO;$/;"	v
+e67	test-errno.c	/^int e67 = ENOLINK;$/;"	v
+e7	test-errno.c	/^int e7 = E2BIG;$/;"	v
+e71	test-errno.c	/^int e71 = EPROTO;$/;"	v
+e72	test-errno.c	/^int e72 = EMULTIHOP;$/;"	v
+e74	test-errno.c	/^int e74 = EBADMSG;$/;"	v
+e75	test-errno.c	/^int e75 = EOVERFLOW;$/;"	v
+e8	test-errno.c	/^int e8 = ENOEXEC;$/;"	v
+e84	test-errno.c	/^int e84 = EILSEQ;$/;"	v
+e88	test-errno.c	/^int e88 = ENOTSOCK;$/;"	v
+e89	test-errno.c	/^int e89 = EDESTADDRREQ;$/;"	v
+e9	test-errno.c	/^int e9 = EBADF;$/;"	v
+e90	test-errno.c	/^int e90 = EMSGSIZE;$/;"	v
+e91	test-errno.c	/^int e91 = EPROTOTYPE;$/;"	v
+e92	test-errno.c	/^int e92 = ENOPROTOOPT;$/;"	v
+e93	test-errno.c	/^int e93 = EPROTONOSUPPORT;$/;"	v
+e95	test-errno.c	/^int e95 = EOPNOTSUPP;$/;"	v
+e95a	test-errno.c	/^int e95a = ENOTSUP;$/;"	v
+e97	test-errno.c	/^int e97 = EAFNOSUPPORT;$/;"	v
+e98	test-errno.c	/^int e98 = EADDRINUSE;$/;"	v
+e99	test-errno.c	/^int e99 = EADDRNOTAVAIL;$/;"	v
+english	setlocale.c	/^  const char *english;$/;"	m	struct:table_entry	file:
+enum_locales_fn	localename.c	/^enum_locales_fn (LPTSTR locale_num_str)$/;"	f	file:
+eq	test-timespec.c	/^eq (struct timespec a, struct timespec b)$/;"	f	file:
+examples	test-filevercmp.c	/^static const char *const examples[] =$/;"	v	file:
+exclude_flags	test-exclude.c	/^int exclude_flags[] = {$/;"	v
+exclude_keywords	test-exclude.c	/^char const * const exclude_keywords[] = {$/;"	v
+exitcode	test-stdlib.c	/^static int exitcode = EXIT_SUCCESS;$/;"	v	file:
+exp	test-frexp.c	36;"	d	file:
+exp	test-frexp.c	37;"	d	file:
+exp	test-frexpl.c	37;"	d	file:
+exp	test-frexpl.c	38;"	d	file:
+exp	test-strftime.c	/^  char const *exp;$/;"	m	struct:localtime_rz_test	file:
+exp	test-strftime.c	/^  char const *exp;$/;"	m	struct:posixtm_test	file:
+expected	test-rand-isaac.c	/^static isaac_word const expected[2][ISAAC_WORDS] =$/;"	v	file:
+extremal	test-timespec.c	/^extremal (struct timespec a)$/;"	f	file:
+f	test-stdbool.c	/^char f[(_Bool) 0.0 == false ? 1 : -1];$/;"	v
+f	test-stddef.c	/^  char f;$/;"	m	struct:d	file:
+f1	test-sched.c	/^static int f1;$/;"	v	file:
+f1	test-stdint.c	/^uint_fast8_t f1[2] = { 17, UINT_FAST8_MAX };$/;"	v
+f2	test-stdint.c	/^uint_fast16_t f2[2] = { 17, UINT_FAST16_MAX };$/;"	v
+f3	test-stdint.c	/^uint_fast32_t f3[2] = { 17, UINT_FAST32_MAX };$/;"	v
+f4	test-stdint.c	/^uint_fast64_t f4[2] = { 17, UINT_FAST64_MAX };$/;"	v
+fb	test-float.c	/^int fb[] =$/;"	v
+fc	test-float.c	/^float fc[] = { FLT_EPSILON, FLT_MIN, FLT_MAX };$/;"	v
+filler	test-fcntl.c	/^  long filler;$/;"	m	struct:dummy_struct	file:
+finish_interval	uniwidth/test-uc_width2.c	/^finish_interval (void)$/;"	f	file:
+fire_signal	test-lock.c	/^static gl_rwlock_t fire_signal[REPEAT_COUNT];$/;"	v	file:
+fire_signal_state	test-lock.c	/^static volatile int fire_signal_state;$/;"	v	file:
+flag	test-linkat.c	/^static int flag = AT_SYMLINK_FOLLOW;$/;"	v	file:
+flag_results	test-quotearg-simple.c	/^static struct result_groups flag_results[] = {$/;"	v	typeref:struct:result_groups	file:
+fmt	test-strftime.c	/^  char const *fmt;$/;"	m	struct:posixtm_test	file:
+force_unlink	test-stat-time.c	/^force_unlink (const char *filename)$/;"	f	file:
+found_lcid	localename.c	/^static LCID found_lcid;$/;"	v	file:
+fprintf	perror.c	30;"	d	file:
+freadptrbufsize	test-freadptr2.c	/^freadptrbufsize (FILE *fp)$/;"	f	file:
+func	glthread/thread.c	/^  void * (*func) (void *);$/;"	m	struct:gl_thread_struct	file:
+func	test-alloca-opt.c	/^void (*func) (int) = do_allocation;$/;"	v
+func	test-malloca.c	/^void (*func) (int) = do_allocation;$/;"	v
+func1	test-fcntl.c	/^func1 (int a, ...)$/;"	f	file:
+func2	test-fcntl.c	/^func2 (int a, ...)$/;"	f	file:
+function	test-verify.c	/^function (int n)$/;"	f	file:
+g	test-stdbool.c	/^char g[true];$/;"	v
+g	test-stdint.c	/^intptr_t g[3] = { 17, INTPTR_MIN, INTPTR_MAX };$/;"	v
+get_current_thread_handle	glthread/thread.c	/^get_current_thread_handle (void)$/;"	f	file:
+get_lcid	localename.c	/^get_lcid (const char *locale_name)$/;"	f	file:
+get_seed	test-hash.c	/^get_seed (char const *str, unsigned int *seed)$/;"	f	file:
+getpagesize	test-getcwd.c	33;"	d	file:
+gid	test-userspec.c	/^  gid_t gid;$/;"	m	struct:test	file:
+gl_locale_name	localename.c	/^gl_locale_name (int category, const char *categoryname)$/;"	f
+gl_locale_name_canonicalize	localename.c	/^gl_locale_name_canonicalize (char *name)$/;"	f	file:
+gl_locale_name_default	localename.c	/^gl_locale_name_default (void)$/;"	f
+gl_locale_name_environ	localename.c	/^gl_locale_name_environ (int category, const char *categoryname)$/;"	f
+gl_locale_name_from_win32_LANGID	localename.c	/^gl_locale_name_from_win32_LANGID (LANGID langid)$/;"	f	file:
+gl_locale_name_from_win32_LCID	localename.c	/^gl_locale_name_from_win32_LCID (LCID lcid)$/;"	f	file:
+gl_locale_name_posix	localename.c	/^gl_locale_name_posix (int category, const char *categoryname)$/;"	f
+gl_locale_name_thread	localename.c	/^gl_locale_name_thread (int category, const char *categoryname)$/;"	f
+gl_locale_name_thread_unsafe	localename.c	/^gl_locale_name_thread_unsafe (int category, const char *categoryname)$/;"	f	file:
+gl_null_thread	glthread/thread.c	/^const gl_thread_t gl_null_thread \/* = { .p = NULL } *\/;$/;"	v
+gl_thread_atfork	glthread/thread.h	411;"	d
+gl_thread_create	glthread/thread.h	/^gl_thread_create (void *(*func) (void *arg), void *arg)$/;"	f
+gl_thread_exit	glthread/thread.h	190;"	d
+gl_thread_exit	glthread/thread.h	249;"	d
+gl_thread_exit	glthread/thread.h	303;"	d
+gl_thread_exit	glthread/thread.h	346;"	d
+gl_thread_exit	glthread/thread.h	373;"	d
+gl_thread_exit_func	glthread/thread.c	/^gl_thread_exit_func (void *retval)$/;"	f
+gl_thread_join	glthread/thread.h	404;"	d
+gl_thread_self	glthread/thread.h	170;"	d
+gl_thread_self	glthread/thread.h	179;"	d
+gl_thread_self	glthread/thread.h	185;"	d
+gl_thread_self	glthread/thread.h	245;"	d
+gl_thread_self	glthread/thread.h	299;"	d
+gl_thread_self	glthread/thread.h	342;"	d
+gl_thread_self	glthread/thread.h	370;"	d
+gl_thread_self_func	glthread/thread.c	/^gl_thread_self_func (void)$/;"	f
+gl_thread_self_pointer	glthread/thread.h	172;"	d
+gl_thread_self_pointer	glthread/thread.h	181;"	d
+gl_thread_self_pointer	glthread/thread.h	187;"	d
+gl_thread_self_pointer	glthread/thread.h	247;"	d
+gl_thread_self_pointer	glthread/thread.h	301;"	d
+gl_thread_self_pointer	glthread/thread.h	344;"	d
+gl_thread_self_pointer	glthread/thread.h	371;"	d
+gl_thread_sigmask	glthread/thread.h	397;"	d
+gl_thread_struct	glthread/thread.c	/^struct gl_thread_struct$/;"	s	file:
+gl_thread_t	glthread/thread.h	/^typedef int gl_thread_t;$/;"	t
+gl_thread_t	glthread/thread.h	/^typedef pth_t gl_thread_t;$/;"	t
+gl_thread_t	glthread/thread.h	/^typedef pthread_t gl_thread_t;$/;"	t
+gl_thread_t	glthread/thread.h	/^typedef struct gl_thread_struct *gl_thread_t;$/;"	t	typeref:struct:gl_thread_struct
+gl_thread_t	glthread/thread.h	/^typedef thread_t gl_thread_t;$/;"	t
+gl_thread_yield	glthread/yield.h	100;"	d
+gl_thread_yield	glthread/yield.h	115;"	d
+gl_thread_yield	glthread/yield.h	38;"	d
+gl_thread_yield	glthread/yield.h	59;"	d
+gl_thread_yield	glthread/yield.h	80;"	d
+glthread_atfork	glthread/thread.h	194;"	d
+glthread_atfork	glthread/thread.h	197;"	d
+glthread_atfork	glthread/thread.h	251;"	d
+glthread_atfork	glthread/thread.h	305;"	d
+glthread_atfork	glthread/thread.h	348;"	d
+glthread_atfork	glthread/thread.h	374;"	d
+glthread_create	glthread/thread.h	161;"	d
+glthread_create	glthread/thread.h	239;"	d
+glthread_create	glthread/thread.h	293;"	d
+glthread_create	glthread/thread.h	336;"	d
+glthread_create	glthread/thread.h	367;"	d
+glthread_create_func	glthread/thread.c	/^glthread_create_func (gl_thread_t *threadp, void * (*func) (void *), void *arg)$/;"	f
+glthread_join	glthread/thread.h	165;"	d
+glthread_join	glthread/thread.h	243;"	d
+glthread_join	glthread/thread.h	297;"	d
+glthread_join	glthread/thread.h	340;"	d
+glthread_join	glthread/thread.h	369;"	d
+glthread_join_func	glthread/thread.c	/^glthread_join_func (gl_thread_t thread, void **retvalp)$/;"	f
+glthread_sigmask	glthread/thread.h	163;"	d
+glthread_sigmask	glthread/thread.h	241;"	d
+glthread_sigmask	glthread/thread.h	295;"	d
+glthread_sigmask	glthread/thread.h	338;"	d
+glthread_sigmask	glthread/thread.h	368;"	d
+gmt_offset	test-parse-datetime.c	/^gmt_offset (time_t s)$/;"	f	file:
+group_name	test-userspec.c	/^  const char *group_name;$/;"	m	struct:test	file:
+h	test-stdbool.c	/^char h[sizeof (_Bool)];$/;"	v
+h	test-stdint.c	/^uintptr_t h[2] = { 17, UINTPTR_MAX };$/;"	v
+handle	glthread/thread.c	/^  HANDLE volatile handle;$/;"	m	struct:gl_thread_struct	file:
+handle_alarm	test-nanosleep.c	/^handle_alarm (int sig)$/;"	f	file:
+handle_alarm	test-sleep.c	/^handle_alarm (int sig)$/;"	f	file:
+handle_lock	glthread/thread.c	/^  CRITICAL_SECTION handle_lock;$/;"	m	struct:gl_thread_struct	file:
+handler	test-raise.c	/^handler (int sig)$/;"	f	file:
+handler	test-sigaction.c	/^handler (int sig)$/;"	f	file:
+hash_compare_strings	test-hash.c	/^hash_compare_strings (void const *x, void const *y)$/;"	f	file:
+hash_freer	test-hash.c	/^hash_freer (void *x)$/;"	f	file:
+hash_node	localename.c	/^struct hash_node$/;"	s	file:
+have_minus_zero	test-vasprintf-posix.c	/^have_minus_zero ()$/;"	f	file:
+hi	setlocale.c	/^typedef struct { size_t lo; size_t hi; } range_t;$/;"	m	struct:__anon5	file:
+i	test-dirent.c	/^static ino_t i;$/;"	v	file:
+i	test-fcntl-h.c	/^int i = FD_CLOEXEC;$/;"	v
+i	test-ignore-value.c	/^struct s { int i; };$/;"	m	struct:s	file:
+i	test-stdbool.c	/^char i[sizeof s.t];$/;"	v
+i	test-stdint.c	/^intmax_t i[3] = { INTMAX_C (17), INTMAX_MIN, INTMAX_MAX };$/;"	v
+in	test-posixtm.c	/^  char const *in;$/;"	m	struct:posixtm_test	file:
+in	test-strftime.c	/^  time_t in;$/;"	m	struct:posixtm_test	file:
+in	test-userspec.c	/^  const char *in;$/;"	m	struct:test	file:
+in_ns	test-strftime.c	/^  int in_ns;$/;"	m	struct:posixtm_test	file:
+inet_pton	inet_pton.c	/^inet_pton (int af, const char *restrict src, void *restrict dst)$/;"	f
+inet_pton	inet_pton.c	42;"	d	file:
+inet_pton4	inet_pton.c	/^inet_pton4 (const char *restrict src, unsigned char *restrict dst)$/;"	f	file:
+inet_pton6	inet_pton.c	/^inet_pton6 (const char *restrict src, unsigned char *restrict dst)$/;"	f	file:
+init_self_key	glthread/thread.c	/^init_self_key (void)$/;"	f	file:
+insert_new	test-hash.c	/^insert_new (Hash_table *ht, const void *ent)$/;"	f	file:
+int64_t	test-stdalign.c	/^CHECK_STATIC (int64_t);$/;"	v
+io	test-sys_socket.c	/^struct iovec io;$/;"	v	typeref:struct:iovec
+ioctl	ioctl.c	/^ioctl (int fd, int request, ... \/* {void *,char *} arg *\/)$/;"	f
+ioctl	ioctl.c	29;"	d	file:
+is_cloexec	test-pipe.c	/^is_cloexec (int fd)$/;"	f	file:
+is_inheritable	test-cloexec.c	/^is_inheritable (int fd)$/;"	f	file:
+is_inheritable	test-dup-safer.c	/^is_inheritable (int fd)$/;"	f	file:
+is_inheritable	test-dup2.c	/^is_inheritable (int fd)$/;"	f	file:
+is_inheritable	test-fcntl.c	/^is_inheritable (int fd)$/;"	f	file:
+is_mode	test-cloexec.c	/^is_mode (int fd, int mode)$/;"	f	file:
+is_mode	test-dup-safer.c	/^is_mode (int fd, int mode)$/;"	f	file:
+is_mode	test-dup2.c	/^is_mode (int fd, int mode)$/;"	f	file:
+is_mode	test-fcntl.c	/^is_mode (int fd, int mode)$/;"	f	file:
+is_nonblocking	test-pipe.c	/^is_nonblocking (int fd)$/;"	f	file:
+is_open	test-dup-safer.c	/^is_open (int fd)$/;"	f	file:
+is_open	test-dup2.c	/^is_open (int fd)$/;"	f	file:
+is_open	test-fcntl.c	/^is_open (int fd)$/;"	f	file:
+is_open	test-pipe.c	/^is_open (int fd)$/;"	f	file:
+item	test-verify.c	/^  item = verify_true (1 == 1) * 0 + 17 \/* should be ok *\/$/;"	e	enum:__anon4	file:
+items	test-langinfo.c	/^int items[] =$/;"	v
+j	test-stdbool.c	/^enum { j = false, k = true, l = false * true, m = true * 256 };$/;"	e	enum:__anon6	file:
+j	test-stdint.c	/^uintmax_t j[2] = { UINTMAX_C (17), UINTMAX_MAX };$/;"	v
+k	test-inttypes.c	/^const char *k = \/* implicit string concatenation *\/$/;"	v
+k	test-stdbool.c	/^enum { j = false, k = true, l = false * true, m = true * 256 };$/;"	e	enum:__anon6	file:
+l	test-inttypes.c	/^const char *l = \/* implicit string concatenation *\/$/;"	v
+l	test-locale.c	/^struct lconv l;$/;"	v	typeref:struct:lconv
+l	test-stdbool.c	/^enum { j = false, k = true, l = false * true, m = true * 256 };$/;"	e	enum:__anon6	file:
+language_table	setlocale.c	/^static const struct table_entry language_table[] =$/;"	v	typeref:struct:table_entry	file:
+last	test-dirname.c	/^  const char *last;     \/* last_component (name).  *\/$/;"	m	struct:test	file:
+lb	test-float.c	/^int lb[] =$/;"	v
+lc1	test-float.c	/^long double lc1 = LDBL_EPSILON;$/;"	v
+lc2	test-float.c	/^long double lc2 = LDBL_MIN;$/;"	v
+lc_messages_name	setlocale.c	/^static char lc_messages_name[64] = "C";$/;"	v	file:
+listen	listen.c	29;"	d	file:
+lname	localename.c	/^static char lname[LC_MAX * (LOCALE_NAME_MAX_LENGTH + 1) + 1];$/;"	v	file:
+lo	setlocale.c	/^typedef struct { size_t lo; size_t hi; } range_t;$/;"	m	struct:__anon5	file:
+local_snprintf	strerror_r.c	/^local_snprintf (char *buf, size_t buflen, const char *format, ...)$/;"	f	file:
+localtime_rz_test	test-strftime.c	/^struct localtime_rz_test$/;"	s	file:
+lock_checker_done	test-lock.c	/^static volatile int lock_checker_done;$/;"	v	file:
+lock_checker_thread	test-lock.c	/^lock_checker_thread (void *arg)$/;"	f	file:
+lock_mutator_thread	test-lock.c	/^lock_mutator_thread (void *arg)$/;"	f	file:
+longdouble	test-alignof.c	/^typedef long double longdouble;$/;"	t	file:
+longdouble	test-stdalign.c	/^typedef long double longdouble;$/;"	t	file:
+ls	test-locale.c	/^int ls;$/;"	v
+m	test-stdbool.c	/^enum { j = false, k = true, l = false * true, m = true * 256 };$/;"	e	enum:__anon6	file:
+main	test-accept.c	/^main (void)$/;"	f
+main	test-alloca-opt.c	/^main ()$/;"	f
+main	test-areadlink-with-size.c	/^main (void)$/;"	f
+main	test-areadlink.c	/^main (void)$/;"	f
+main	test-areadlinkat.c	/^main (void)$/;"	f
+main	test-argmatch.c	/^main (int argc, char *argv[])$/;"	f
+main	test-argv-iter.c	/^main (void)$/;"	f
+main	test-arpa_inet.c	/^main (void)$/;"	f
+main	test-base32.c	/^main (void)$/;"	f
+main	test-base64.c	/^main (void)$/;"	f
+main	test-binary-io.c	/^main (int argc, char *argv[])$/;"	f
+main	test-bind.c	/^main (void)$/;"	f
+main	test-bitrotate.c	/^main (void)$/;"	f
+main	test-btowc.c	/^main (int argc, char *argv[])$/;"	f
+main	test-c-ctype.c	/^main ()$/;"	f
+main	test-c-strcasecmp.c	/^main (int argc, char *argv[])$/;"	f
+main	test-c-strncasecmp.c	/^main (int argc, char *argv[])$/;"	f
+main	test-calloc-gnu.c	/^main ()$/;"	f
+main	test-canonicalize.c	/^main (void)$/;"	f
+main	test-chdir.c	/^main (void)$/;"	f
+main	test-chown.c	/^main (void)$/;"	f
+main	test-cloexec.c	/^main (void)$/;"	f
+main	test-close.c	/^main (void)$/;"	f
+main	test-closein.c	/^main (int argc, char **argv)$/;"	f
+main	test-connect.c	/^main (void)$/;"	f
+main	test-copy-acl.c	/^main (int argc, char *argv[])$/;"	f
+main	test-ctype.c	/^main (void)$/;"	f
+main	test-di-set.c	/^main (void)$/;"	f
+main	test-dirent-safer.c	/^main (void)$/;"	f
+main	test-dirent.c	/^main (void)$/;"	f
+main	test-dirname.c	/^main (void)$/;"	f
+main	test-dup-safer.c	/^main (void)$/;"	f
+main	test-dup.c	/^main (void)$/;"	f
+main	test-dup2.c	/^main (void)$/;"	f
+main	test-environ.c	/^main ()$/;"	f
+main	test-errno.c	/^main ()$/;"	f
+main	test-exclude.c	/^main (int argc, char **argv)$/;"	f
+main	test-faccessat.c	/^main (void)$/;"	f
+main	test-fadvise.c	/^main (void)$/;"	f
+main	test-fchdir.c	/^main (void)$/;"	f
+main	test-fchmodat.c	/^main (void)$/;"	f
+main	test-fchownat.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-fclose.c	/^main (int argc, char **argv)$/;"	f
+main	test-fcntl-h.c	/^main (void)$/;"	f
+main	test-fcntl-safer.c	/^main (void)$/;"	f
+main	test-fcntl.c	/^main (void)$/;"	f
+main	test-fdatasync.c	/^main (void)$/;"	f
+main	test-fdopen.c	/^main (void)$/;"	f
+main	test-fdopendir.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-fdutimensat.c	/^main (void)$/;"	f
+main	test-fflush.c	/^main (void)$/;"	f
+main	test-fflush2.c	/^main (int argc, char **argv)$/;"	f
+main	test-fgetc.c	/^main (int argc, char **argv)$/;"	f
+main	test-file-has-acl.c	/^main (int argc, char *argv[])$/;"	f
+main	test-filenamecat.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-filevercmp.c	/^main (void)$/;"	f
+main	test-float.c	/^main ()$/;"	f
+main	test-fnmatch.c	/^main ()$/;"	f
+main	test-fopen-safer.c	/^main (void)$/;"	f
+main	test-fopen.c	/^main (void)$/;"	f
+main	test-fpending.c	/^main (void)$/;"	f
+main	test-fpurge.c	/^main (void)$/;"	f
+main	test-fputc.c	/^main (int argc, char **argv)$/;"	f
+main	test-fread.c	/^main (int argc, char **argv)$/;"	f
+main	test-freadahead.c	/^main (int argc, char **argv)$/;"	f
+main	test-freading.c	/^main (void)$/;"	f
+main	test-freadptr.c	/^main (int argc, char **argv)$/;"	f
+main	test-freadptr2.c	/^main (int argc, char **argv)$/;"	f
+main	test-freadseek.c	/^main (int argc, char **argv)$/;"	f
+main	test-freopen-safer.c	/^main (void)$/;"	f
+main	test-freopen.c	/^main ()$/;"	f
+main	test-frexp.c	/^main ()$/;"	f
+main	test-frexpl.c	/^main ()$/;"	f
+main	test-fseek.c	/^main (int argc, char **argv)$/;"	f
+main	test-fseeko.c	/^main (int argc, char **argv _GL_UNUSED)$/;"	f
+main	test-fseeko3.c	/^main (int argc, char **argv)$/;"	f
+main	test-fseeko4.c	/^main (int argc, char **argv)$/;"	f
+main	test-fseterr.c	/^main ()$/;"	f
+main	test-fstat.c	/^main (int argc, char *argv[])$/;"	f
+main	test-fstatat.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-fsync.c	/^main (void)$/;"	f
+main	test-ftell.c	/^main (int argc, char **argv)$/;"	f
+main	test-ftell3.c	/^main (void)$/;"	f
+main	test-ftello.c	/^main (int argc, char **argv _GL_UNUSED)$/;"	f
+main	test-ftello3.c	/^main (void)$/;"	f
+main	test-ftello4.c	/^main (int argc, char **argv)$/;"	f
+main	test-ftruncate.c	/^main (int argc, char *argv[])$/;"	f
+main	test-futimens.c	/^main (void)$/;"	f
+main	test-fwrite.c	/^main (int argc, char **argv)$/;"	f
+main	test-getaddrinfo.c	/^int main (void)$/;"	f
+main	test-getcwd-lgpl.c	/^main (int argc, char **argv)$/;"	f
+main	test-getcwd.c	/^main (int argc, char **argv)$/;"	f
+main	test-getdelim.c	/^main (void)$/;"	f
+main	test-getdtablesize.c	/^main (int argc, char *argv[])$/;"	f
+main	test-getgroups.c	/^main (int argc, char **argv _GL_UNUSED)$/;"	f
+main	test-gethostname.c	/^main (int argc, char *argv[] _GL_UNUSED)$/;"	f
+main	test-getline.c	/^main (void)$/;"	f
+main	test-getloadavg.c	/^main (int argc, char **argv)$/;"	f
+main	test-getlogin.c	/^main (void)$/;"	f
+main	test-getndelim2.c	/^main (void)$/;"	f
+main	test-getopt.c	/^main (void)$/;"	f
+main	test-getprogname.c	/^main (void)$/;"	f
+main	test-gettimeofday.c	/^main (void)$/;"	f
+main	test-hash.c	/^main (int argc, char **argv)$/;"	f
+main	test-i-ring.c	/^main (void)$/;"	f
+main	test-iconv-h.c	/^main ()$/;"	f
+main	test-iconv.c	/^main ()$/;"	f
+main	test-ignore-value.c	/^main (void)$/;"	f
+main	test-inet_ntop.c	/^main (void)$/;"	f
+main	test-inet_pton.c	/^main (void)$/;"	f
+main	test-ino-map.c	/^main ()$/;"	f
+main	test-intprops.c	/^main (void)$/;"	f
+main	test-inttostr.c	/^main (void)$/;"	f
+main	test-inttypes.c	/^main (void)$/;"	f
+main	test-ioctl.c	/^main (void)$/;"	f
+main	test-isatty.c	/^main (void)$/;"	f
+main	test-isblank.c	/^main (int argc, char *argv[])$/;"	f
+main	test-iswblank.c	/^main (void)$/;"	f
+main	test-langinfo.c	/^main (void)$/;"	f
+main	test-lchown.c	/^main (void)$/;"	f
+main	test-limits-h.c	/^main (void)$/;"	f
+main	test-link.c	/^main (void)$/;"	f
+main	test-linkat.c	/^main (void)$/;"	f
+main	test-listen.c	/^main (void)$/;"	f
+main	test-locale.c	/^main ()$/;"	f
+main	test-localeconv.c	/^main ()$/;"	f
+main	test-localename.c	/^main ()$/;"	f
+main	test-lock.c	/^main ()$/;"	f
+main	test-lseek.c	/^main (int argc, char **argv)$/;"	f
+main	test-lstat.c	/^main (void)$/;"	f
+main	test-malloc-gnu.c	/^main ()$/;"	f
+main	test-malloca.c	/^main ()$/;"	f
+main	test-math.c	/^main (void)$/;"	f
+main	test-mbrtowc-w32.c	/^main (int argc, char *argv[])$/;"	f
+main	test-mbrtowc.c	/^main (int argc, char *argv[])$/;"	f
+main	test-mbsalign.c	/^main (void)$/;"	f
+main	test-mbscasecmp.c	/^main ()$/;"	f
+main	test-mbsinit.c	/^main (int argc, char *argv[])$/;"	f
+main	test-mbsrtowcs.c	/^main (int argc, char *argv[])$/;"	f
+main	test-mbsstr1.c	/^main ()$/;"	f
+main	test-mbsstr2.c	/^main ()$/;"	f
+main	test-mbsstr3.c	/^main ()$/;"	f
+main	test-md5.c	/^main (void)$/;"	f
+main	test-memcasecmp.c	/^main (void)$/;"	f
+main	test-memchr.c	/^main (void)$/;"	f
+main	test-memchr2.c	/^main (void)$/;"	f
+main	test-memcoll.c	/^main (void)$/;"	f
+main	test-memrchr.c	/^main (void)$/;"	f
+main	test-mkdir.c	/^main (void)$/;"	f
+main	test-mkfifo.c	/^main (void)$/;"	f
+main	test-mknod.c	/^main (void)$/;"	f
+main	test-nanosleep.c	/^main (void)$/;"	f
+main	test-netdb.c	/^main (void)$/;"	f
+main	test-netinet_in.c	/^main (void)$/;"	f
+main	test-nl_langinfo.c	/^main (int argc, char *argv[])$/;"	f
+main	test-open.c	/^main (void)$/;"	f
+main	test-openat-safer.c	/^main (void)$/;"	f
+main	test-openat.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-parse-datetime.c	/^main (int argc _GL_UNUSED, char **argv)$/;"	f
+main	test-pathmax.c	/^main (void)$/;"	f
+main	test-perror.c	/^main (int argc, char **argv)$/;"	f
+main	test-perror2.c	/^main (void)$/;"	f
+main	test-pipe.c	/^main ()$/;"	f
+main	test-posixtm.c	/^main (void)$/;"	f
+main	test-printf-frexp.c	/^main ()$/;"	f
+main	test-printf-frexpl.c	/^main ()$/;"	f
+main	test-priv-set.c	/^main (void)$/;"	f
+main	test-quotearg-simple.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-raise.c	/^main (void)$/;"	f
+main	test-rand-isaac.c	/^main (int argc, char **argv)$/;"	f
+main	test-read-file.c	/^main (void)$/;"	f
+main	test-read.c	/^main (void)$/;"	f
+main	test-readlink.c	/^main (void)$/;"	f
+main	test-readlinkat.c	/^main (void)$/;"	f
+main	test-readtokens.c	/^main (int argc, char **argv)$/;"	f
+main	test-realloc-gnu.c	/^main ()$/;"	f
+main	test-regex.c	/^main (void)$/;"	f
+main	test-remove.c	/^main (void)$/;"	f
+main	test-rename.c	/^main (void)$/;"	f
+main	test-rmdir.c	/^main (void)$/;"	f
+main	test-sameacls.c	/^main (int argc, char *argv[])$/;"	f
+main	test-sched.c	/^main ()$/;"	f
+main	test-select-fd.c	/^main (int argc, char *argv[])$/;"	f
+main	test-select-stdin.c	/^main (void)$/;"	f
+main	test-select.c	/^main (void)$/;"	f
+main	test-set-mode-acl.c	/^main (int argc, char *argv[])$/;"	f
+main	test-setenv.c	/^main (void)$/;"	f
+main	test-setlocale1.c	/^main (int argc, char *argv[])$/;"	f
+main	test-setlocale2.c	/^main ()$/;"	f
+main	test-setsockopt.c	/^main (void)$/;"	f
+main	test-sha1.c	/^main (void)$/;"	f
+main	test-sigaction.c	/^main (void)$/;"	f
+main	test-signal-h.c	/^main (void)$/;"	f
+main	test-signbit.c	/^main ()$/;"	f
+main	test-sigprocmask.c	/^main ()$/;"	f
+main	test-sigprocmask.c	/^main (int argc, char *argv[])$/;"	f
+main	test-sleep.c	/^main (void)$/;"	f
+main	test-snprintf.c	/^main (int argc, char *argv[])$/;"	f
+main	test-sockets.c	/^main (void)$/;"	f
+main	test-stat-time.c	/^main (void)$/;"	f
+main	test-stat.c	/^main (void)$/;"	f
+main	test-stdalign.c	/^main ()$/;"	f
+main	test-stdbool.c	/^main ()$/;"	f
+main	test-stddef.c	/^main (void)$/;"	f
+main	test-stdint.c	/^main (void)$/;"	f
+main	test-stdio.c	/^main (void)$/;"	f
+main	test-stdlib.c	/^main (void)$/;"	f
+main	test-strerror.c	/^main (void)$/;"	f
+main	test-strerror_r.c	/^main (void)$/;"	f
+main	test-strftime.c	/^main (void)$/;"	f
+main	test-striconv.c	/^main ()$/;"	f
+main	test-string.c	/^main (void)$/;"	f
+main	test-strncat.c	/^main ()$/;"	f
+main	test-strnlen.c	/^main (void)$/;"	f
+main	test-strsignal.c	/^main (void)$/;"	f
+main	test-strtod.c	/^main (void)$/;"	f
+main	test-strtoimax.c	/^main (void)$/;"	f
+main	test-strtoll.c	/^main (void)$/;"	f
+main	test-strtoull.c	/^main (void)$/;"	f
+main	test-strtoumax.c	/^main (void)$/;"	f
+main	test-symlink.c	/^main (void)$/;"	f
+main	test-symlinkat.c	/^main (void)$/;"	f
+main	test-sys_ioctl.c	/^main (void)$/;"	f
+main	test-sys_resource.c	/^main (void)$/;"	f
+main	test-sys_select.c	/^main (void)$/;"	f
+main	test-sys_socket.c	/^main (void)$/;"	f
+main	test-sys_stat.c	/^main (void)$/;"	f
+main	test-sys_time.c	/^main (void)$/;"	f
+main	test-sys_types.c	/^main (void)$/;"	f
+main	test-sys_uio.c	/^main (void)$/;"	f
+main	test-sys_utsname.c	/^main ()$/;"	f
+main	test-sys_wait.c	/^main (void)$/;"	f
+main	test-termios.c	/^main (void)$/;"	f
+main	test-thread_create.c	/^main ()$/;"	f
+main	test-thread_self.c	/^main ()$/;"	f
+main	test-time.c	/^main (void)$/;"	f
+main	test-timespec.c	/^main (void)$/;"	f
+main	test-tls.c	/^main ()$/;"	f
+main	test-u64.c	/^main (void)$/;"	f
+main	test-uname.c	/^main (int argc, char *argv[])$/;"	f
+main	test-unistd.c	/^main (void)$/;"	f
+main	test-unlink.c	/^main (void)$/;"	f
+main	test-unlinkat.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-unsetenv.c	/^main (void)$/;"	f
+main	test-userspec.c	/^main (void)$/;"	f
+main	test-utimens.c	/^main (void)$/;"	f
+main	test-utimensat.c	/^main (void)$/;"	f
+main	test-vasnprintf.c	/^main (int argc, char *argv[])$/;"	f
+main	test-vasprintf-posix.c	/^main (int argc, char *argv[])$/;"	f
+main	test-vasprintf.c	/^main (int argc, char *argv[])$/;"	f
+main	test-verify.c	/^main (void)$/;"	f
+main	test-version-etc.c	/^main (int argc _GL_UNUSED, char **argv)$/;"	f
+main	test-vfprintf-posix.c	/^main (int argc, char *argv[])$/;"	f
+main	test-vprintf-posix.c	/^main (int argc, char *argv[])$/;"	f
+main	test-wchar.c	/^main (void)$/;"	f
+main	test-wcrtomb-w32.c	/^main (int argc, char *argv[])$/;"	f
+main	test-wcrtomb.c	/^main (int argc, char *argv[])$/;"	f
+main	test-wctype-h.c	/^main (void)$/;"	f
+main	test-wcwidth.c	/^main ()$/;"	f
+main	test-write.c	/^main (void)$/;"	f
+main	test-xalloc-die.c	/^main (int argc _GL_UNUSED, char **argv)$/;"	f
+main	test-xfprintf-posix.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-xprintf-posix.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-xstrtol.c	/^main (int argc, char **argv)$/;"	f
+main	test-xvasprintf.c	/^main (int argc _GL_UNUSED, char *argv[])$/;"	f
+main	test-yesno.c	/^main (int argc, char **argv)$/;"	f
+main	unistr/test-u8-mbtoucr.c	/^main ()$/;"	f
+main	unistr/test-u8-uctomb.c	/^main ()$/;"	f
+main	uniwidth/test-uc_width.c	/^main ()$/;"	f
+main	uniwidth/test-uc_width2.c	/^main ()$/;"	f
+main_thread	test-thread_self.c	/^gl_thread_t main_thread;$/;"	v
+main_thread_after	test-thread_create.c	/^static gl_thread_t main_thread_after;$/;"	v	file:
+main_thread_before	test-thread_create.c	/^static gl_thread_t main_thread_before;$/;"	v	file:
+mask	test-localename.c	/^static struct { int cat; int mask; const char *string; } const categories[] =$/;"	m	struct:__anon7	file:
+maybe_null	test-userspec.c	/^maybe_null (char const *s)$/;"	f	file:
+modified	test-dirname.c	/^  bool modified;        \/* result of strip_trailing_slashes (name).  *\/$/;"	m	struct:test	file:
+msg	test-sys_socket.c	/^struct msghdr msg;$/;"	v	typeref:struct:msghdr
+my_asnprintf	test-vasnprintf.c	/^my_asnprintf (char *resultbuf, size_t *lengthp, const char *format, ...)$/;"	f	file:
+my_asprintf	test-vasprintf-posix.c	/^my_asprintf (char **result, const char *format, ...)$/;"	f	file:
+my_asprintf	test-vasprintf.c	/^my_asprintf (char **result, const char *format, ...)$/;"	f	file:
+my_fprintf	test-vfprintf-posix.c	/^my_fprintf (FILE *fp, const char *format, ...)$/;"	f	file:
+my_ldexp	test-printf-frexp.c	/^my_ldexp (double x, int d)$/;"	f	file:
+my_ldexp	test-printf-frexpl.c	/^my_ldexp (long double x, int d)$/;"	f	file:
+my_printf	test-vprintf-posix.c	/^my_printf (const char *format, ...)$/;"	f	file:
+my_xasprintf	test-xvasprintf.c	/^my_xasprintf (const char *format, ...)$/;"	f	file:
+myerr	test-dirent-safer.c	/^static FILE *myerr;$/;"	v	file:
+myerr	test-dup-safer.c	/^static FILE *myerr;$/;"	v	file:
+myerr	test-freopen-safer.c	/^static FILE *myerr;$/;"	v	file:
+myerr	test-getopt.c	/^static FILE *myerr;$/;"	v	file:
+myerr	test-openat-safer.c	/^static FILE *myerr;$/;"	v	file:
+myerr	test-perror2.c	/^static FILE *myerr;$/;"	v	file:
+mykeys	test-tls.c	/^static gl_tls_key_t mykeys[KEYS_COUNT];$/;"	v	file:
+n	test-stdbool.c	/^_Bool n[m];$/;"	v
+name	test-dirname.c	/^  const char *name;     \/* Name under test.  *\/$/;"	m	struct:test	file:
+next	localename.c	/^    struct hash_node * volatile next;$/;"	m	struct:hash_node	file:
+no_backups	test-argmatch.c	/^  no_backups,$/;"	e	enum:backup_type	file:
+nprototypes	test-timespec.c	/^enum { nprototypes = sizeof prototype \/ sizeof *prototype };$/;"	e	enum:__anon2	file:
+ns	test-timespec.c	/^static struct { int s; int ns; } const prototype[] =$/;"	m	struct:__anon1	file:
+nsig	test-signal-h.c	/^int nsig = NSIG;$/;"	v
+null_ptr	test-canonicalize.c	/^null_ptr (void)$/;"	f	file:
+numbered_backups	test-argmatch.c	/^  numbered_backups$/;"	e	enum:backup_type	file:
+numbered_existing_backups	test-argmatch.c	/^  numbered_existing_backups,$/;"	e	enum:backup_type	file:
+numeric_equald	test-math.c	/^numeric_equald (double x, double y)$/;"	f	file:
+numeric_equalf	test-math.c	/^numeric_equalf (float x, float y)$/;"	f	file:
+numeric_equall	test-math.c	/^numeric_equall (long double x, long double y)$/;"	f	file:
+o	test-fcntl-h.c	/^int o = (O_DIRECT | O_DIRECTORY | O_DSYNC | O_IGNORE_CTTY | O_NDELAY | O_NOATIME$/;"	v
+o	test-stdbool.c	/^char o[sizeof n == m * sizeof n[0] ? 1 : -1];$/;"	v
+once_contender_thread	test-lock.c	/^once_contender_thread (void *arg)$/;"	f	file:
+once_control	test-lock.c	/^static gl_once_t once_control;$/;"	v	file:
+once_execute	test-lock.c	/^once_execute (void)$/;"	f	file:
+open_file	test-stat-time.c	/^open_file (const char *filename, int flags)$/;"	f	file:
+or	test-stdint.c	/^err or;$/;"	v
+p	test-stdbool.c	/^char p[-1 - (_Bool) 0 < 0 && -1 - (bool) 0 < 0 ? 1 : -1];$/;"	v
+p	test-wctype-h.c	/^wctype_t p;$/;"	v
+performed	test-lock.c	/^static int performed;$/;"	v	file:
+perhaps_yield	test-tls.c	/^perhaps_yield (void)$/;"	f	file:
+perror	perror.c	/^perror (const char *string)$/;"	f
+posixtm_test	test-posixtm.c	/^struct posixtm_test$/;"	s	file:
+posixtm_test	test-strftime.c	/^posixtm_test (void)$/;"	f	file:
+posixtm_test	test-strftime.c	/^struct posixtm_test$/;"	s	file:
+pow2d	test-float.c	/^pow2d (int n)$/;"	f	file:
+pow2f	test-float.c	/^pow2f (int n)$/;"	f	file:
+pow2l	test-float.c	/^pow2l (int n)$/;"	f	file:
+pq	test-stdbool.c	/^_Bool *pq = &q;$/;"	v
+prepare_test	test-stat-time.c	/^prepare_test (struct stat *statinfo, struct timespec *modtimes)$/;"	f	file:
+primary_ioctl	ioctl.c	/^primary_ioctl (int fd, int request, void *arg)$/;"	f	file:
+print_no_progname	test-xstrtol.c	/^print_no_progname (void)$/;"	f	file:
+prios	test-sys_resource.c	/^int prios[] =$/;"	v
+prototype	test-timespec.c	/^static struct { int s; int ns; } const prototype[] =$/;"	v	file:
+pth_cancel	glthread/thread.h	228;"	d
+pth_exit	glthread/thread.h	226;"	d
+pth_in_use	glthread/thread.h	229;"	d
+pth_in_use	glthread/thread.h	233;"	d
+pth_join	glthread/thread.h	224;"	d
+pth_self	glthread/thread.h	225;"	d
+pth_sigmask	glthread/thread.h	223;"	d
+pth_spawn	glthread/thread.h	222;"	d
+pthread_atfork	glthread/thread.h	139;"	d
+pthread_cancel	glthread/thread.h	143;"	d
+pthread_create	glthread/thread.h	125;"	d
+pthread_exit	glthread/thread.h	137;"	d
+pthread_in_use	glthread/thread.h	100;"	d
+pthread_in_use	glthread/thread.h	144;"	d
+pthread_in_use	glthread/thread.h	150;"	d
+pthread_join	glthread/thread.h	133;"	d
+pthread_self	glthread/thread.h	135;"	d
+pthread_sigmask	glthread/thread.h	131;"	d
+q	test-stdbool.c	/^_Bool q = true;$/;"	v
+q	test-wctype-h.c	/^wctrans_t q;$/;"	v
+quarter_test	test-strftime.c	/^quarter_test (void)$/;"	f	file:
+random_account	test-lock.c	/^random_account (void)$/;"	f	file:
+randomd	randomd.c	/^const double randomd[1000] =$/;"	v
+randoml	randoml.c	/^const long double randoml[1000] =$/;"	v
+range_t	setlocale.c	/^typedef struct { size_t lo; size_t hi; } range_t;$/;"	t	typeref:struct:__anon5	file:
+ready	test-lock.c	/^static int ready[THREAD_COUNT];$/;"	v	file:
+ready_lock	test-lock.c	/^static gl_lock_t ready_lock[THREAD_COUNT];$/;"	v	file:
+reclock_checker_done	test-lock.c	/^static volatile int reclock_checker_done;$/;"	v	file:
+reclock_checker_thread	test-lock.c	/^reclock_checker_thread (void *arg)$/;"	f	file:
+reclock_mutator_thread	test-lock.c	/^reclock_mutator_thread (void *arg)$/;"	f	file:
+recshuffle	test-lock.c	/^recshuffle (void)$/;"	f	file:
+result	glthread/thread.c	/^  void * volatile result;$/;"	m	struct:gl_thread_struct	file:
+result	test-userspec.c	/^  const char *result;$/;"	m	struct:test	file:
+results_g	test-quotearg-simple.c	/^static struct result_groups results_g[] = {$/;"	v	typeref:struct:result_groups	file:
+rlimits	test-sys_resource.c	/^int rlimits[] =$/;"	v
+rlims	test-sys_resource.c	/^int rlims[] =$/;"	v
+rmdirat	test-unlinkat.c	/^rmdirat (char const *name)$/;"	f	file:
+rpl_accept	accept.c	/^rpl_accept (int fd, struct sockaddr *addr, socklen_t *addrlen)$/;"	f
+rpl_bind	bind.c	/^rpl_bind (int fd, const struct sockaddr *sockaddr, socklen_t len)$/;"	f
+rpl_connect	connect.c	/^rpl_connect (int fd, const struct sockaddr *sockaddr, socklen_t len)$/;"	f
+rpl_inet_pton	inet_pton.c	/^rpl_inet_pton (int af, const char *restrict src, void *restrict dst)$/;"	f
+rpl_ioctl	ioctl.c	/^rpl_ioctl (int fd, int request, ... \/* {void *,char *} arg *\/)$/;"	f
+rpl_listen	listen.c	/^rpl_listen (int fd, int backlog)$/;"	f
+rpl_setlocale	setlocale.c	/^rpl_setlocale (int category, const char *locale)$/;"	f
+rpl_setsockopt	setsockopt.c	/^rpl_setsockopt (int fd, int level, int optname, const void *optval, socklen_t optlen)$/;"	f
+rpl_sleep	sleep.c	/^rpl_sleep (unsigned int seconds)$/;"	f
+rpl_socket	socket.c	/^rpl_socket (int domain, int type, int protocol)$/;"	f
+rpl_symlinkat	symlinkat.c	/^rpl_symlinkat (char const *contents, int fd, char const *name)$/;"	f
+rusages	test-sys_resource.c	/^int rusages[] =$/;"	v
+rwlock_checker_done	test-lock.c	/^static volatile int rwlock_checker_done;$/;"	v	file:
+rwlock_checker_thread	test-lock.c	/^rwlock_checker_thread (void *arg)$/;"	f	file:
+rwlock_mutator_thread	test-lock.c	/^rwlock_mutator_thread (void *arg)$/;"	f	file:
+s	test-ignore-value.c	/^struct s { int i; };$/;"	s	file:
+s	test-signal-h.c	/^} s;$/;"	v	typeref:struct:__anon16
+s	test-stdbool.c	/^struct s { _Bool s: 1; _Bool t; } s;$/;"	m	struct:s	file:
+s	test-stdbool.c	/^struct s { _Bool s: 1; _Bool t; } s;$/;"	s	file:
+s	test-stdbool.c	/^struct s { _Bool s: 1; _Bool t; } s;$/;"	v	typeref:struct:s
+s	test-timespec.c	/^static struct { int s; int ns; } const prototype[] =$/;"	m	struct:__anon1	file:
+safe_copy	strerror_r.c	/^safe_copy (char *buf, size_t buflen, const char *msg)$/;"	f	file:
+same_diag	test-userspec.c	/^same_diag (char const *s, char const *t)$/;"	f	file:
+search	setlocale.c	/^search (const struct table_entry *table, size_t table_size, const char *string,$/;"	f	file:
+self_key	glthread/thread.c	/^static DWORD self_key = (DWORD)-1;$/;"	v	file:
+set_binary_mode	binary-io.h	42;"	d
+setlocale	setlocale.c	39;"	d	file:
+setlocale_single	setlocale.c	/^setlocale_single (int category, const char *locale)$/;"	f	file:
+setlocale_single	setlocale.c	806;"	d	file:
+setlocale_unixlike	setlocale.c	/^setlocale_unixlike (int category, const char *locale)$/;"	f	file:
+setlocale_unixlike	setlocale.c	780;"	d	file:
+setmode	test-cloexec.c	61;"	d	file:
+setmode	test-dup-safer.c	41;"	d	file:
+setmode	test-dup2.c	91;"	d	file:
+setmode	test-fcntl.c	45;"	d	file:
+setsockopt	setsockopt.c	32;"	d	file:
+setting	test-strftime.c	/^  char const *setting;$/;"	m	struct:tzalloc_test	file:
+sigint_handler	test-sigprocmask.c	/^sigint_handler (int sig)$/;"	f	file:
+sigint_occurred	test-sigprocmask.c	/^static volatile int sigint_occurred;$/;"	v	file:
+sign	test-timespec.c	/^sign (int i)$/;"	f	file:
+simple	test-getaddrinfo.c	/^simple (char const *host, char const *service)$/;"	f	file:
+simple_backups	test-argmatch.c	/^  simple_backups,$/;"	e	enum:backup_type	file:
+sizeof	test-stddef.c	/^verify (sizeof (offsetof (struct d, e)) == sizeof (size_t));$/;"	v
+sk	test-fcntl-h.c	/^int sk[] = { SEEK_CUR, SEEK_END, SEEK_SET };$/;"	v
+sk	test-stdio.c	/^int sk[] = { SEEK_CUR, SEEK_END, SEEK_SET };$/;"	v
+sk	test-unistd.c	/^int sk[] = { SEEK_CUR, SEEK_END, SEEK_SET };$/;"	v
+sleep	sleep.c	/^sleep (unsigned int seconds)$/;"	f
+sleep	sleep.c	48;"	d	file:
+snprintf	strerror_r.c	120;"	d	file:
+st	test-sys_stat.c	/^struct timespec st;$/;"	v	typeref:struct:timespec
+strerror	strerror_r.c	57;"	d	file:
+strerror_r	strerror_r.c	/^strerror_r (int errnum, char *buf, size_t buflen)$/;"	f
+strerror_r	strerror_r.c	150;"	d	file:
+string	test-localename.c	/^static struct { int cat; int mask; const char *string; } const categories[] =$/;"	m	struct:__anon7	file:
+string_hash	localename.c	/^string_hash (const void *x)$/;"	f	file:
+stripped	test-dirname.c	/^  const char *stripped; \/* name after strip_trailing_slashes (name).  *\/$/;"	m	struct:test	file:
+strisnan	test-vasprintf-posix.c	/^strisnan (const char *string, size_t start_index, size_t end_index, int uppercase)$/;"	f	file:
+strmatch	test-vasprintf-posix.c	/^strmatch (const char *pattern, const char *string)$/;"	f	file:
+struct1	test-alignof.c	/^typedef struct { char a[1]; } struct1;$/;"	t	typeref:struct:__anon8	file:
+struct1	test-stdalign.c	/^CHECK_STATIC (struct1);$/;"	v
+struct1	test-stdalign.c	/^typedef struct { char a[1]; } struct1;$/;"	t	typeref:struct:__anon12	file:
+struct2	test-alignof.c	/^typedef struct { char a[2]; } struct2;$/;"	t	typeref:struct:__anon9	file:
+struct2	test-stdalign.c	/^CHECK_STATIC (struct2);$/;"	v
+struct2	test-stdalign.c	/^typedef struct { char a[2]; } struct2;$/;"	t	typeref:struct:__anon13	file:
+struct3	test-alignof.c	/^typedef struct { char a[3]; } struct3;$/;"	t	typeref:struct:__anon10	file:
+struct3	test-stdalign.c	/^CHECK_STATIC (struct3);$/;"	v
+struct3	test-stdalign.c	/^typedef struct { char a[3]; } struct3;$/;"	t	typeref:struct:__anon14	file:
+struct4	test-alignof.c	/^typedef struct { char a[4]; } struct4;$/;"	t	typeref:struct:__anon11	file:
+struct4	test-stdalign.c	/^CHECK_STATIC (struct4);$/;"	v
+struct4	test-stdalign.c	/^typedef struct { char a[4]; } struct4;$/;"	t	typeref:struct:__anon15	file:
+struniq	localename.c	/^struniq (const char *string)$/;"	f	file:
+struniq_hash_table	localename.c	/^static struct hash_node * volatile struniq_hash_table[HASH_TABLE_SIZE]$/;"	v	file:
+symlink_reversed	symlinkat.c	/^symlink_reversed (char const *file, char const *contents)$/;"	f	file:
+symlinkat	symlinkat.c	/^symlinkat (char const *contents, int fd, char const *file)$/;"	f
+symlinkat	symlinkat.c	/^symlinkat (char const *path1 _GL_UNUSED, int fd _GL_UNUSED,$/;"	f
+symlinkat	symlinkat.c	25;"	d	file:
+syntax_bits	test-posixtm.c	/^  unsigned int syntax_bits;$/;"	m	struct:posixtm_test	file:
+t	test-stdbool.c	/^struct s { _Bool s: 1; _Bool t; } s;$/;"	m	struct:s	file:
+t	test-strftime.c	/^  time_t t;$/;"	m	struct:localtime_rz_test	file:
+t1	test-fcntl-h.c	/^pid_t t1;$/;"	v
+t1	test-netdb.c	/^struct hostent t1;$/;"	v	typeref:struct:hostent
+t1	test-sched.c	/^pid_t t1;$/;"	v
+t1	test-stdio.c	/^fpos_t t1;$/;"	v
+t1	test-sys_resource.c	/^rlim_t t1;$/;"	v
+t1	test-sys_socket.c	/^socklen_t t1;$/;"	v
+t1	test-sys_stat.c	/^nlink_t t1;$/;"	v
+t1	test-sys_types.c	/^pid_t t1;$/;"	v
+t1	test-termios.c	/^pid_t t1;$/;"	v
+t1	test-time.c	/^struct timespec t1;$/;"	v	typeref:struct:timespec
+t1	test-unistd.c	/^size_t t1;$/;"	v
+t10	test-sys_resource.c	/^time_t t10;$/;"	v
+t11	test-sys_resource.c	/^suseconds_t t11;$/;"	v
+t12	test-sys_resource.c	/^fd_set t12;$/;"	v
+t2	test-fcntl-h.c	/^off_t t2;$/;"	v
+t2	test-netdb.c	/^socklen_t t2;$/;"	v
+t2	test-stdio.c	/^off_t t2;$/;"	v
+t2	test-sys_resource.c	/^struct rlimit t2;$/;"	v	typeref:struct:rlimit
+t2	test-sys_select.c	/^sigset_t t2;$/;"	v
+t2	test-sys_socket.c	/^size_t t2;$/;"	v
+t2	test-sys_stat.c	/^off_t t2;$/;"	v
+t2	test-sys_types.c	/^size_t t2;$/;"	v
+t2	test-unistd.c	/^ssize_t t2;$/;"	v
+t3	test-fcntl-h.c	/^mode_t t3;$/;"	v
+t3	test-stdio.c	/^size_t t3;$/;"	v
+t3	test-sys_resource.c	/^struct rusage t3;$/;"	v	typeref:struct:rusage
+t3	test-sys_socket.c	/^ssize_t t3;$/;"	v
+t3	test-sys_stat.c	/^mode_t t3;$/;"	v
+t3	test-sys_types.c	/^ssize_t t3;$/;"	v
+t3	test-unistd.c	/^uid_t t3;$/;"	v
+t4	test-stdio.c	/^ssize_t t4;$/;"	v
+t4	test-sys_resource.c	/^struct timeval t4;$/;"	v	typeref:struct:timeval
+t4	test-sys_types.c	/^off_t t4;$/;"	v
+t4	test-unistd.c	/^gid_t t4;$/;"	v
+t5	test-stdio.c	/^va_list t5;$/;"	v
+t5	test-sys_resource.c	/^id_t t5;$/;"	v
+t5	test-sys_types.c	/^mode_t t5;$/;"	v
+t5	test-unistd.c	/^off_t t5;$/;"	v
+t6	test-unistd.c	/^pid_t t6;$/;"	v
+t7	test-unistd.c	/^useconds_t t7;$/;"	v
+t8	test-unistd.c	/^intptr_t t8;$/;"	v
+t_expected	test-posixtm.c	/^  int_least64_t t_expected;$/;"	m	struct:posixtm_test	file:
+table_entry	setlocale.c	/^struct table_entry$/;"	s	file:
+test	test-dirname.c	/^struct test {$/;"	s	file:
+test	test-userspec.c	/^struct test$/;"	s	file:
+test_abort_bug	test-getcwd.c	/^test_abort_bug (void)$/;"	f	file:
+test_agree_with_C_locale	test-c-ctype.c	/^test_agree_with_C_locale (void)$/;"	f	file:
+test_all	test-c-ctype.c	/^test_all (void)$/;"	f	file:
+test_asnprintf	test-vasnprintf.c	/^test_asnprintf ()$/;"	f	file:
+test_asprintf	test-vasprintf-posix.c	/^test_asprintf ()$/;"	f	file:
+test_asprintf	test-vasprintf.c	/^test_asprintf ()$/;"	f	file:
+test_birthtime	test-stat-time.c	/^test_birthtime (const struct stat *statinfo,$/;"	f	file:
+test_ctime	test-stat-time.c	/^test_ctime (const struct stat *statinfo)$/;"	f	file:
+test_ctime	test-stat-time.c	153;"	d	file:
+test_double	test-float.c	/^test_double (void)$/;"	f	file:
+test_float	test-float.c	/^test_float (void)$/;"	f	file:
+test_function	test-vasnprintf.c	/^test_function (char * (*my_asnprintf) (char *, size_t *, const char *, ...))$/;"	f	file:
+test_function	test-vasprintf-posix.c	/^test_function (int (*my_asprintf) (char **, const char *, ...))$/;"	f	file:
+test_locale_name	test-localename.c	/^test_locale_name (void)$/;"	f	file:
+test_locale_name_default	test-localename.c	/^test_locale_name_default (void)$/;"	f	file:
+test_locale_name_environ	test-localename.c	/^test_locale_name_environ (void)$/;"	f	file:
+test_locale_name_posix	test-localename.c	/^test_locale_name_posix (void)$/;"	f	file:
+test_locale_name_thread	test-localename.c	/^test_locale_name_thread (void)$/;"	f	file:
+test_lock	test-lock.c	/^test_lock (void)$/;"	f	file:
+test_long_double	test-float.c	/^test_long_double (void)$/;"	f	file:
+test_long_name	test-getcwd.c	/^test_long_name (void)$/;"	f	file:
+test_mtime	test-stat-time.c	/^test_mtime (const struct stat *statinfo, struct timespec *modtimes)$/;"	f	file:
+test_once	test-lock.c	/^test_once (void)$/;"	f	file:
+test_one_locale	test-mbrtowc-w32.c	/^test_one_locale (const char *name, int codepage)$/;"	f	file:
+test_one_locale	test-wcrtomb-w32.c	/^test_one_locale (const char *name, int codepage)$/;"	f	file:
+test_recursive_lock	test-lock.c	/^test_recursive_lock (void)$/;"	f	file:
+test_rwlock	test-lock.c	/^test_rwlock (void)$/;"	f	file:
+test_signbitd	test-signbit.c	/^test_signbitd ()$/;"	f	file:
+test_signbitf	test-signbit.c	/^test_signbitf ()$/;"	f	file:
+test_signbitl	test-signbit.c	/^test_signbitl ()$/;"	f	file:
+test_sys_wait_macros	test-stdlib.c	44;"	d	file:
+test_tls	test-tls.c	/^test_tls (void)$/;"	f	file:
+test_vasnprintf	test-vasnprintf.c	/^test_vasnprintf ()$/;"	f	file:
+test_vasprintf	test-vasprintf-posix.c	/^test_vasprintf ()$/;"	f	file:
+test_vasprintf	test-vasprintf.c	/^test_vasprintf ()$/;"	f	file:
+test_xasprintf	test-xvasprintf.c	/^test_xasprintf (void)$/;"	f	file:
+test_xvasprintf	test-xvasprintf.c	/^test_xvasprintf (void)$/;"	f	file:
+tests	test-dirname.c	/^static struct test tests[] = {$/;"	v	typeref:struct:test	file:
+thr_create	glthread/thread.h	276;"	d
+thr_exit	glthread/thread.h	279;"	d
+thr_join	glthread/thread.h	277;"	d
+thr_self	glthread/thread.h	278;"	d
+thr_suspend	glthread/thread.h	281;"	d
+thread_in_use	glthread/thread.h	282;"	d
+thread_in_use	glthread/thread.h	286;"	d
+timespec_add	timespec-add.c	/^timespec_add (struct timespec a, struct timespec b)$/;"	f
+timespec_sub	timespec-sub.c	/^timespec_sub (struct timespec a, struct timespec b)$/;"	f
+tm_diff	test-parse-datetime.c	/^tm_diff (struct tm const *a, struct tm const *b)$/;"	f	file:
+tz	test-strftime.c	/^  timezone_t tz;$/;"	m	struct:tzalloc_test	file:
+tza	test-strftime.c	/^  struct tzalloc_test *tza;$/;"	m	struct:localtime_rz_test	typeref:struct:localtime_rz_test::tzalloc_test	file:
+tzalloc_test	test-strftime.c	/^struct tzalloc_test$/;"	s	file:
+tzalloc_test	test-strftime.c	/^tzalloc_test (void)$/;"	f	file:
+uid	test-userspec.c	/^  uid_t uid;$/;"	m	struct:test	file:
+unlinker	test-unlinkat.c	/^unlinker (char const *name)$/;"	f	file:
+use_quote_double_quotes	test-quotearg-simple.c	/^use_quote_double_quotes (const char *str, size_t *len)$/;"	f	file:
+user_name	test-userspec.c	/^  const char *user_name;$/;"	m	struct:test	file:
+valid	test-posixtm.c	/^  bool valid;$/;"	m	struct:posixtm_test	file:
+valid	test-timespec.c	/^valid (struct timespec a)$/;"	f	file:
+value	test-fcntl.c	/^  int value;$/;"	m	struct:dummy_struct	file:
+verify_same_types	test-stdint.c	30;"	d	file:
+verify_same_types	test-stdint.c	36;"	d	file:
+verify_tv_sec_type	test-sys_select.c	/^typedef int verify_tv_sec_type[sizeof (time_t) <= sizeof (a.tv_sec) ? 1 : -1];$/;"	t	file:
+verify_tv_sec_type	test-sys_time.c	/^typedef int verify_tv_sec_type[sizeof (time_t) <= sizeof (a.tv_sec) ? 1 : -1];$/;"	t	file:
+verify_width	test-limits-h.c	31;"	d	file:
+verify_width	test-stdint.c	362;"	d	file:
+walk	test-hash.c	/^walk (void *ent, void *data)$/;"	f	file:
+wctob	wctob.c	/^wctob (wint_t wc)$/;"	f
+witness	test-dup-safer.c	104;"	d	file:
+witness	test-openat-safer.c	38;"	d	file:
+work_done	test-thread_create.c	/^static volatile int work_done;$/;"	v	file:
+worker_thread	test-thread_create.c	/^static gl_thread_t worker_thread;$/;"	v	file:
+worker_thread	test-tls.c	/^worker_thread (void *arg)$/;"	f	file:
+worker_thread_func	test-thread_create.c	/^worker_thread_func (void *arg)$/;"	f	file:
+wrapper_func	glthread/thread.c	/^wrapper_func (void *varg)$/;"	f	file:
+write_nul_delimited_argv	test-argv-iter.c	/^write_nul_delimited_argv (char **argv)$/;"	f	file:
+x	test-stddef.c	/^max_align_t x;$/;"	v
+x	test-verify.c	/^int x;$/;"	v
+yield	test-lock.c	101;"	d	file:
+yield	test-lock.c	103;"	d	file:
+yield	test-tls.c	64;"	d	file:
+yield	test-tls.c	66;"	d	file:
+zero	test-cloexec.c	/^static int zero (void) { return 0; }$/;"	f	file:
+zero	test-dup-safer.c	/^static int zero (void) { return 0; }$/;"	f	file:
+zero	test-dup2.c	/^static int zero (void) { return 0; }$/;"	f	file:
+zero	test-fcntl.c	/^static int zero (void) { return 0; }$/;"	f	file:
+zerod	test-signbit.c	/^double zerod = 0.0;$/;"	v
+zerof	test-signbit.c	/^float zerof = 0.0f;$/;"	v
+zerol	test-signbit.c	/^long double zerol = 0.0L;$/;"	v
