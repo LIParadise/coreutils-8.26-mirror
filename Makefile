@@ -2665,7 +2665,7 @@ DEPDIR = .deps
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
-EGREP = /usr/bin/grep -E
+EGREP = /bin/grep -E
 EMULTIHOP_HIDDEN = 
 EMULTIHOP_VALUE = 
 ENOLINK_HIDDEN = 
@@ -2683,8 +2683,8 @@ GETLOADAVG_LIBS =
 GETOPT_H = 
 GETTEXT_MACRO_VERSION = 0.19
 GLIBC21 = yes
-GMSGFMT = /usr/bin/msgfmt
-GMSGFMT_015 = /usr/bin/msgfmt
+GMSGFMT = :
+GMSGFMT_015 = :
 GNULIB_ACCEPT = IN_COREUTILS_GNULIB_TESTS
 GNULIB_ACCEPT4 = 0
 GNULIB_ACOSF = 0
@@ -3070,7 +3070,7 @@ GNULIB_WMEMMOVE = 0
 GNULIB_WMEMSET = 0
 GNULIB_WRITE = 1
 GNULIB__EXIT = 0
-GREP = /usr/bin/grep
+GREP = /bin/grep
 HAVE_ACCEPT4 = 1
 HAVE_ACOSF = 1
 HAVE_ACOSL = 1
@@ -3425,7 +3425,7 @@ HAVE_WMEMCPY = 1
 HAVE_WMEMMOVE = 1
 HAVE_WMEMSET = 1
 HAVE_WS2TCPIP_H = 0
-HAVE_XLOCALE_H = 0
+HAVE_XLOCALE_H = 1
 HAVE__BOOL = 1
 HAVE__EXIT = 1
 HELP2MAN = ${SHELL} /home/liparadise/coreutils-8.26/build-aux/missing help2man
@@ -3495,10 +3495,10 @@ LTLIBPTH =
 LTLIBTHREAD = 
 MAKEINFO = ${SHELL} /home/liparadise/coreutils-8.26/build-aux/missing makeinfo
 MAN = 
-MKDIR_P = /usr/bin/mkdir -p
-MSGFMT = /usr/bin/msgfmt
-MSGFMT_015 = /usr/bin/msgfmt
-MSGMERGE = /usr/bin/msgmerge
+MKDIR_P = /bin/mkdir -p
+MSGFMT = :
+MSGFMT_015 = :
+MSGMERGE = :
 NETINET_IN_H = 
 NEXT_ARPA_INET_H = <arpa/inet.h>
 NEXT_AS_FIRST_DIRECTIVE_ARPA_INET_H = <arpa/inet.h>
@@ -3590,11 +3590,11 @@ PACKAGE_URL = http://www.gnu.org/software/coreutils/
 PACKAGE_VERSION = 8.26
 PATH_SEPARATOR = :
 PERL = perl
-POSIX_SHELL = /bin/sh
+POSIX_SHELL = /bin/bash
 POSUB = po
 PRAGMA_COLUMNS = 
 PRAGMA_SYSTEM_HEADER = #pragma GCC system_header
-PREFERABLY_POSIX_SHELL = /bin/sh
+PREFERABLY_POSIX_SHELL = /bin/bash
 PRIPTR_PREFIX = "l"
 PRI_MACROS_BROKEN = 0
 PTHREAD_H = 
@@ -3640,7 +3640,7 @@ REPLACE_FMODL = 0
 REPLACE_FOPEN = 0
 REPLACE_FPRINTF = 0
 REPLACE_FPURGE = 0
-REPLACE_FREOPEN = 0
+REPLACE_FREOPEN = 1
 REPLACE_FREXP = 0
 REPLACE_FREXPF = 0
 REPLACE_FREXPL = 0
@@ -3818,19 +3818,19 @@ REPLACE_WCTOMB = 0
 REPLACE_WCWIDTH = 0
 REPLACE_WRITE = 0
 SCHED_H = 
-SED = /usr/bin/sed
+SED = /bin/sed
 SELINUX_CONTEXT_H = lib/selinux/context.h
-SEQ_LIBM = 
+SEQ_LIBM = -lm
 SERVENT_LIB = 
 SET_MAKE = 
-SHELL = /bin/sh
+SHELL = /bin/bash
 SIG_ATOMIC_T_SUFFIX = 
 SIZE_T_SUFFIX = 
 STDALIGN_H = 
 STDARG_H = 
 STDBOOL_H = 
 STDDEF_H = 
-STDINT_H = 
+STDINT_H = lib/stdint.h
 STRIP = 
 SYS_IOCTL_H_HAVE_WINSOCK2_H = 0
 SYS_IOCTL_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS = 0
@@ -3851,8 +3851,8 @@ WERROR_CFLAGS =
 WINDOWS_64_BIT_OFF_T = 0
 WINDOWS_64_BIT_ST_SIZE = 0
 WINT_T_SUFFIX = 
-XGETTEXT = /usr/bin/xgettext
-XGETTEXT_015 = /usr/bin/xgettext
+XGETTEXT = :
+XGETTEXT_015 = :
 XGETTEXT_EXTRA_OPTIONS =  --flag=error:3:c-format --flag=error_at_line:5:c-format --keyword='proper_name:1,"This is a proper name. See the gettext manual, section Names."' --keyword='proper_name_utf8:1,"This is a proper name. See the gettext manual, section Names."' --flag=asprintf:2:c-format --flag=vasprintf:2:c-format --flag=verror:3:c-format --flag=verror_at_line:5:c-format --flag=xprintf:1:c-format --flag=xvprintf:1:c-format --flag=xfprintf:2:c-format --flag=xvfprintf:2:c-format --flag=xasprintf:1:c-format
 YACC = bison -y
 YFLAGS = 
@@ -3885,8 +3885,8 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-gl_LIBOBJS =  lib/asnprintf.o lib/chdir-long.o lib/fclose.o lib/fcntl.o lib/fflush.o lib/fpurge.o lib/freadahead.o lib/freadptr.o lib/fseek.o lib/fseeko.o lib/fseterr.o lib/fsusage.o lib/fts.o lib/getpass.o lib/isapipe.o lib/mbrlen.o lib/mbrtowc.o lib/mktime.o lib/mountlist.o lib/nanosleep.o lib/obstack.o lib/openat-proc.o lib/printf-args.o lib/printf-parse.o lib/readutmp.o lib/selinux-at.o lib/sig2str.o lib/time_rz.o lib/vasnprintf.o
-gl_LTLIBOBJS =  lib/asnprintf.lo lib/chdir-long.lo lib/fclose.lo lib/fcntl.lo lib/fflush.lo lib/fpurge.lo lib/freadahead.lo lib/freadptr.lo lib/fseek.lo lib/fseeko.lo lib/fseterr.lo lib/fsusage.lo lib/fts.lo lib/getpass.lo lib/isapipe.lo lib/mbrlen.lo lib/mbrtowc.lo lib/mktime.lo lib/mountlist.lo lib/nanosleep.lo lib/obstack.lo lib/openat-proc.lo lib/printf-args.lo lib/printf-parse.lo lib/readutmp.lo lib/selinux-at.lo lib/sig2str.lo lib/time_rz.lo lib/vasnprintf.lo
+gl_LIBOBJS =  lib/asnprintf.o lib/chdir-long.o lib/fclose.o lib/fcntl.o lib/fflush.o lib/fpurge.o lib/freadahead.o lib/freadptr.o lib/freopen.o lib/fseek.o lib/fseeko.o lib/fseterr.o lib/fsusage.o lib/fts.o lib/getpass.o lib/isapipe.o lib/mbrlen.o lib/mbrtowc.o lib/mktime.o lib/mountlist.o lib/nanosleep.o lib/obstack.o lib/openat-proc.o lib/printf-args.o lib/printf-parse.o lib/readutmp.o lib/selinux-at.o lib/sig2str.o lib/time_rz.o lib/vasnprintf.o
+gl_LTLIBOBJS =  lib/asnprintf.lo lib/chdir-long.lo lib/fclose.lo lib/fcntl.lo lib/fflush.lo lib/fpurge.lo lib/freadahead.lo lib/freadptr.lo lib/freopen.lo lib/fseek.lo lib/fseeko.lo lib/fseterr.lo lib/fsusage.lo lib/fts.lo lib/getpass.lo lib/isapipe.lo lib/mbrlen.lo lib/mbrtowc.lo lib/mktime.lo lib/mountlist.lo lib/nanosleep.lo lib/obstack.lo lib/openat-proc.lo lib/printf-args.lo lib/printf-parse.lo lib/readutmp.lo lib/selinux-at.lo lib/sig2str.lo lib/time_rz.lo lib/vasnprintf.lo
 gltests_LIBOBJS =  ioctl.o strerror_r.o
 gltests_LTLIBOBJS =  ioctl.lo strerror_r.lo
 gltests_WITNESS = IN_COREUTILS_GNULIB_TESTS
@@ -4123,7 +4123,7 @@ gen_single_binary = $(top_srcdir)/build-aux/gen-single-binary.sh
 ACLOCAL_AMFLAGS = -I m4
 
 # Just prior to distribution, ...
-# transform the automake-generated rule that runs 'rm -f rm > /dev/null 2>&1 || /bin/rm -f rm'.
+# transform the automake-generated rule that runs 'rm -f rm'.
 # On some systems, that command would fail with a diagnostic like
 # "rm: cannot unlink 'rm': Text file busy" when '.' appears so early
 # in the shell's search path that running 'rm' would run the 'rm'
@@ -7608,7 +7608,7 @@ uninstall-binPROGRAMS:
 	cd "$(DESTDIR)$(bindir)" && rm -f $$files
 
 clean-binPROGRAMS:
-	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS) > /dev/null 2>&1 || /bin/rm -f $(bin_PROGRAMS)
+	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
 
 clean-noinstPROGRAMS:
 	-test -z "$(noinst_PROGRAMS)" || rm -f $(noinst_PROGRAMS)
@@ -13332,42 +13332,42 @@ lib/stddef.h: $(top_builddir)/config.status
 
 # We need the following in order to create <stdint.h> when the system
 # doesn't have one that works with the given compiler.
-#lib/stdint.h: lib/stdint.in.h $(top_builddir)/config.status
-#	$(AM_V_GEN)rm -f $@-t $@ && \
-#	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
-#	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
-#	      -e 's/@''HAVE_STDINT_H''@/$(HAVE_STDINT_H)/g' \
-#	      -e 's|@''INCLUDE_NEXT''@|$(INCLUDE_NEXT)|g' \
-#	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
-#	      -e 's|@''PRAGMA_COLUMNS''@||g' \
-#	      -e 's|@''NEXT_STDINT_H''@|$(NEXT_STDINT_H)|g' \
-#	      -e 's/@''HAVE_C99_STDINT_H''@/$(HAVE_C99_STDINT_H)/g' \
-#	      -e 's/@''HAVE_SYS_TYPES_H''@/$(HAVE_SYS_TYPES_H)/g' \
-#	      -e 's/@''HAVE_INTTYPES_H''@/$(HAVE_INTTYPES_H)/g' \
-#	      -e 's/@''HAVE_SYS_INTTYPES_H''@/$(HAVE_SYS_INTTYPES_H)/g' \
-#	      -e 's/@''HAVE_SYS_BITYPES_H''@/$(HAVE_SYS_BITYPES_H)/g' \
-#	      -e 's/@''HAVE_WCHAR_H''@/$(HAVE_WCHAR_H)/g' \
-#	      -e 's/@''HAVE_LONG_LONG_INT''@/$(HAVE_LONG_LONG_INT)/g' \
-#	      -e 's/@''HAVE_UNSIGNED_LONG_LONG_INT''@/$(HAVE_UNSIGNED_LONG_LONG_INT)/g' \
-#	      -e 's/@''APPLE_UNIVERSAL_BUILD''@/$(APPLE_UNIVERSAL_BUILD)/g' \
-#	      -e 's/@''BITSIZEOF_PTRDIFF_T''@/$(BITSIZEOF_PTRDIFF_T)/g' \
-#	      -e 's/@''PTRDIFF_T_SUFFIX''@/$(PTRDIFF_T_SUFFIX)/g' \
-#	      -e 's/@''BITSIZEOF_SIG_ATOMIC_T''@/$(BITSIZEOF_SIG_ATOMIC_T)/g' \
-#	      -e 's/@''HAVE_SIGNED_SIG_ATOMIC_T''@/$(HAVE_SIGNED_SIG_ATOMIC_T)/g' \
-#	      -e 's/@''SIG_ATOMIC_T_SUFFIX''@/$(SIG_ATOMIC_T_SUFFIX)/g' \
-#	      -e 's/@''BITSIZEOF_SIZE_T''@/$(BITSIZEOF_SIZE_T)/g' \
-#	      -e 's/@''SIZE_T_SUFFIX''@/$(SIZE_T_SUFFIX)/g' \
-#	      -e 's/@''BITSIZEOF_WCHAR_T''@/$(BITSIZEOF_WCHAR_T)/g' \
-#	      -e 's/@''HAVE_SIGNED_WCHAR_T''@/$(HAVE_SIGNED_WCHAR_T)/g' \
-#	      -e 's/@''WCHAR_T_SUFFIX''@/$(WCHAR_T_SUFFIX)/g' \
-#	      -e 's/@''BITSIZEOF_WINT_T''@/$(BITSIZEOF_WINT_T)/g' \
-#	      -e 's/@''HAVE_SIGNED_WINT_T''@/$(HAVE_SIGNED_WINT_T)/g' \
-#	      -e 's/@''WINT_T_SUFFIX''@/$(WINT_T_SUFFIX)/g' \
-#	      < $(top_srcdir)/lib/stdint.in.h; \
-#	} > $@-t && \
-#	mv $@-t $@
-lib/stdint.h: $(top_builddir)/config.status
-	rm -f $@
+lib/stdint.h: lib/stdint.in.h $(top_builddir)/config.status
+	$(AM_V_GEN)rm -f $@-t $@ && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+	      -e 's/@''HAVE_STDINT_H''@/$(HAVE_STDINT_H)/g' \
+	      -e 's|@''INCLUDE_NEXT''@|$(INCLUDE_NEXT)|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+	      -e 's|@''PRAGMA_COLUMNS''@||g' \
+	      -e 's|@''NEXT_STDINT_H''@|$(NEXT_STDINT_H)|g' \
+	      -e 's/@''HAVE_C99_STDINT_H''@/$(HAVE_C99_STDINT_H)/g' \
+	      -e 's/@''HAVE_SYS_TYPES_H''@/$(HAVE_SYS_TYPES_H)/g' \
+	      -e 's/@''HAVE_INTTYPES_H''@/$(HAVE_INTTYPES_H)/g' \
+	      -e 's/@''HAVE_SYS_INTTYPES_H''@/$(HAVE_SYS_INTTYPES_H)/g' \
+	      -e 's/@''HAVE_SYS_BITYPES_H''@/$(HAVE_SYS_BITYPES_H)/g' \
+	      -e 's/@''HAVE_WCHAR_H''@/$(HAVE_WCHAR_H)/g' \
+	      -e 's/@''HAVE_LONG_LONG_INT''@/$(HAVE_LONG_LONG_INT)/g' \
+	      -e 's/@''HAVE_UNSIGNED_LONG_LONG_INT''@/$(HAVE_UNSIGNED_LONG_LONG_INT)/g' \
+	      -e 's/@''APPLE_UNIVERSAL_BUILD''@/$(APPLE_UNIVERSAL_BUILD)/g' \
+	      -e 's/@''BITSIZEOF_PTRDIFF_T''@/$(BITSIZEOF_PTRDIFF_T)/g' \
+	      -e 's/@''PTRDIFF_T_SUFFIX''@/$(PTRDIFF_T_SUFFIX)/g' \
+	      -e 's/@''BITSIZEOF_SIG_ATOMIC_T''@/$(BITSIZEOF_SIG_ATOMIC_T)/g' \
+	      -e 's/@''HAVE_SIGNED_SIG_ATOMIC_T''@/$(HAVE_SIGNED_SIG_ATOMIC_T)/g' \
+	      -e 's/@''SIG_ATOMIC_T_SUFFIX''@/$(SIG_ATOMIC_T_SUFFIX)/g' \
+	      -e 's/@''BITSIZEOF_SIZE_T''@/$(BITSIZEOF_SIZE_T)/g' \
+	      -e 's/@''SIZE_T_SUFFIX''@/$(SIZE_T_SUFFIX)/g' \
+	      -e 's/@''BITSIZEOF_WCHAR_T''@/$(BITSIZEOF_WCHAR_T)/g' \
+	      -e 's/@''HAVE_SIGNED_WCHAR_T''@/$(HAVE_SIGNED_WCHAR_T)/g' \
+	      -e 's/@''WCHAR_T_SUFFIX''@/$(WCHAR_T_SUFFIX)/g' \
+	      -e 's/@''BITSIZEOF_WINT_T''@/$(BITSIZEOF_WINT_T)/g' \
+	      -e 's/@''HAVE_SIGNED_WINT_T''@/$(HAVE_SIGNED_WINT_T)/g' \
+	      -e 's/@''WINT_T_SUFFIX''@/$(WINT_T_SUFFIX)/g' \
+	      < $(top_srcdir)/lib/stdint.in.h; \
+	} > $@-t && \
+	mv $@-t $@
+#lib/stdint.h: $(top_builddir)/config.status
+#	rm -f $@
 
 # We need the following in order to create <stdio.h> when the system
 # doesn't have one that works with the given compiler.

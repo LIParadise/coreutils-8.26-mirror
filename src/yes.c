@@ -32,31 +32,31 @@
 
 #define AUTHORS proper_name ("David MacKenzie")
 
-  void
+void
 usage (int status)
 {
   if (status != EXIT_SUCCESS)
     emit_try_help ();
   else
-  {
-    printf (_("\
-          Usage: %s [STRING]...\n\
-          or:  %s OPTION\n\
-          "),
-        program_name, program_name);
+    {
+      printf (_("\
+Usage: %s [STRING]...\n\
+  or:  %s OPTION\n\
+"),
+              program_name, program_name);
 
-    fputs (_("\
-          Repeatedly output a line with all specified STRING(s), or 'y'.\n\
-          \n\
-          "), stdout);
-    fputs (HELP_OPTION_DESCRIPTION, stdout);
-    fputs (VERSION_OPTION_DESCRIPTION, stdout);
-    emit_ancillary_info (PROGRAM_NAME);
-  }
+      fputs (_("\
+Repeatedly output a line with all specified STRING(s), or 'y'.\n\
+\n\
+"), stdout);
+      fputs (HELP_OPTION_DESCRIPTION, stdout);
+      fputs (VERSION_OPTION_DESCRIPTION, stdout);
+      emit_ancillary_info (PROGRAM_NAME);
+    }
   exit (status);
 }
 
-  int
+int
 main (int argc, char **argv)
 {
   initialize_main (&argc, &argv);
@@ -68,7 +68,7 @@ main (int argc, char **argv)
   atexit (close_stdout);
 
   parse_long_options (argc, argv, PROGRAM_NAME, PACKAGE_NAME, Version,
-      usage, AUTHORS, (char const *) NULL);
+                      usage, AUTHORS, (char const *) NULL);
   if (getopt_long (argc, argv, "+", NULL, NULL) != -1)
     usage (EXIT_FAILURE);
 
@@ -82,43 +82,43 @@ main (int argc, char **argv)
   size_t bufalloc = 0;
   bool reuse_operand_strings = true;
   for (char **operandp = operands; operandp < operand_lim; operandp++)
-  {
-    size_t operand_len = strlen (*operandp);
-    bufalloc += operand_len + 1;
-    if (operandp + 1 < operand_lim
-        && *operandp + operand_len + 1 != operandp[1])
-      reuse_operand_strings = false;
-  }
+    {
+      size_t operand_len = strlen (*operandp);
+      bufalloc += operand_len + 1;
+      if (operandp + 1 < operand_lim
+          && *operandp + operand_len + 1 != operandp[1])
+        reuse_operand_strings = false;
+    }
 
   /* Improve performance by using a buffer size greater than BUFSIZ / 2.  */
   if (bufalloc <= BUFSIZ / 2)
-  {
-    bufalloc = BUFSIZ;
-    reuse_operand_strings = false;
-  }
+    {
+      bufalloc = BUFSIZ;
+      reuse_operand_strings = false;
+    }
 
   /* Fill the buffer with one copy of the output.  If possible, reuse
      the operands strings; this wins when the buffer would be large.  */
   char *buf = reuse_operand_strings ? *operands : xmalloc (bufalloc);
   size_t bufused = 0;
   for (char **operandp = operands; operandp < operand_lim; operandp++)
-  {
-    size_t operand_len = strlen (*operandp);
-    if (! reuse_operand_strings)
-      memcpy (buf + bufused, *operandp, operand_len);
-    bufused += operand_len;
-    buf[bufused++] = ' ';
-  }
+    {
+      size_t operand_len = strlen (*operandp);
+      if (! reuse_operand_strings)
+        memcpy (buf + bufused, *operandp, operand_len);
+      bufused += operand_len;
+      buf[bufused++] = ' ';
+    }
   buf[bufused - 1] = '\n';
 
   /* If a larger buffer was allocated, fill it by repeating the buffer
      contents.  */
   size_t copysize = bufused;
   for (size_t copies = bufalloc / copysize; --copies; )
-  {
-    memcpy (buf + bufused, buf, copysize);
-    bufused += copysize;
-  }
+    {
+      memcpy (buf + bufused, buf, copysize);
+      bufused += copysize;
+    }
 
   /* Repeatedly output the buffer until there is a write error; then fail.  */
   while (full_write (STDOUT_FILENO, buf, bufused) == bufused)
